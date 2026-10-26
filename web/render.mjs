@@ -1,6 +1,7 @@
 import { selectVisibleTools } from "./state.mjs";
 import { formatDateTime, formatNumber, freshnessStatus } from "./format.mjs";
 import { issueFormUrl, workflowUrl, safeGitHubUrl } from "./links.mjs";
+import { comparisonState } from "./signals.mjs";
 export function node(tag, attrs = {}, ...children) {
   const el = document.createElement(tag);
   for (const [key, value] of Object.entries(attrs)) {
@@ -105,6 +106,38 @@ function detail(row) {
     text(m?.description || "GitHub 원문 설명이 없습니다", "description"),
     info,
   ];
+  const comparison = comparisonState(t);
+  sections.push(
+    node(
+      "section",
+      {},
+      node("h3", {}, "이전 확인과 비교"),
+      comparison.baseline === "first"
+        ? text("첫 확인입니다. 다음 성공 수집부터 변경을 비교합니다.")
+        : [
+            text(
+              comparison.release === "unknown"
+                ? "저장소 릴리스 비교 미확인"
+                : comparison.release === "changed"
+                  ? "이전 확인 이후 저장소 릴리스 변경"
+                  : "이전 확인 이후 새 저장소 릴리스 없음",
+              comparison.release === "changed"
+                ? "small data-tone"
+                : "small muted",
+            ),
+            text(
+              comparison.activity === "unknown"
+                ? "추적 범위 변경 비교 미확인"
+                : comparison.activity === "changed"
+                  ? "이전 확인 이후 추적 범위의 커밋 변경"
+                  : "이전 확인 이후 추적 범위의 새 커밋 없음",
+              comparison.activity === "changed"
+                ? "small data-tone"
+                : "small muted",
+            ),
+          ],
+    ),
+  );
   if ([t.metadata, t.release, t.activity].some((f) => f.status === "error"))
     sections.push(
       text("일부 조회에 실패하여 직전 확인 자료를 함께 표시합니다.", "notice"),

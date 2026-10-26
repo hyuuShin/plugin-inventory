@@ -1,4 +1,26 @@
 const DAY = 86400000;
+export function comparisonState(tool) {
+  if (!tool.changes?.baselineAvailable)
+    return { baseline: "first", release: "unknown", activity: "unknown" };
+  return {
+    baseline: "available",
+    release:
+      tool.changes.releaseBaselineAvailable === false ||
+      !["ok", "missing"].includes(tool.release.status)
+        ? "unknown"
+        : tool.changes.releaseChanged
+          ? "changed"
+          : "unchanged",
+    activity:
+      tool.changes.commitBaselineAvailable === false ||
+      tool.activity.status === "error" ||
+      !tool.activity.value
+        ? "unknown"
+        : tool.changes.commitChanged
+          ? "changed"
+          : "unchanged",
+  };
+}
 export function deriveToolSignals(tool, now) {
   const age = (date) => (date ? Date.parse(now) - Date.parse(date) : null);
   const releaseAge = age(tool.release.value?.publishedAt),

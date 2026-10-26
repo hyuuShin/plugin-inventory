@@ -103,12 +103,18 @@ export async function collectAll({
   client,
   now,
   weekly = false,
+  mode = null,
   workflowUrl = null,
 }) {
   validateConfig(config);
   validateStoredData(previous);
+  const collectionMode = mode ?? (weekly ? "weekly" : "daily");
+  const pollDiscovery = collectionMode !== "registration";
   const errors = [];
   let successes = 0,
+    meaningfulSuccesses = 0,
+    discoverySuccesses = 0,
+    issuesSucceeded = false,
     registrations = previous.current.registrations;
   try {
     const result = await client.paginate(
@@ -124,6 +130,7 @@ export async function collectAll({
       previous: registrations,
     });
     successes++;
+    issuesSucceeded = true;
   } catch (e) {
     errors.push(e.code ?? "issues_failed");
   }
@@ -145,12 +152,19 @@ export async function collectAll({
             errors.push("tool_" + registration.id + "_" + name);
           else if (t[name].status === "partial")
             errors.push("tool_" + registration.id + "_" + name + "_partial");
-          else successes++;
+          else {
+            successes++;
+            meaningfulSuccesses++;
+          }
         return t;
       }),
   );
-  const due = weekly || !previous.current.weekly,
-    searchNeeded = weekly || previous.candidates.length === 0,
+  const due =
+      pollDiscovery &&
+      (collectionMode === "weekly" || !previous.current.weekly),
+    searchNeeded =
+      pollDiscovery &&
+      (collectionMode === "weekly" || previous.candidates.length === 0),
     found = [];
   let searchComplete = true;
   if (searchNeeded)
@@ -171,6 +185,8 @@ export async function collectAll({
             );
         if (!result.complete) searchComplete = false;
         successes++;
+        meaningfulSuccesses++;
+        discoverySuccesses++;
       } catch (e) {
         searchComplete = false;
         errors.push(e.code ?? "search_failed");
@@ -188,26 +204,29 @@ export async function collectAll({
     reportDue: false,
   });
   const seen = new Set(found.map((c) => c.repositoryId));
-  candidates = await Promise.all(
-    candidates.map(async (candidate) => {
-      if (seen.has(candidate.repositoryId)) return candidate;
-      try {
-        const { data: repo } = await client.get(
-          "/repositories/" + candidate.repositoryId,
-        );
-        if (repo.private) throw Error("private");
-        successes++;
-        return candidateFromRepo(repo, now, candidate);
-      } catch (e) {
-        errors.push("candidate_" + candidate.repositoryId);
-        return candidate;
-      }
-    }),
-  );
+  if (pollDiscovery)
+    candidates = await Promise.all(
+      candidates.map(async (candidate) => {
+        if (seen.has(candidate.repositoryId)) return candidate;
+        try {
+          const { data: repo } = await client.get(
+            "/repositories/" + candidate.repositoryId,
+          );
+          if (repo.private) throw Error("private");
+          successes++;
+          meaningfulSuccesses++;
+          discoverySuccesses++;
+          return candidateFromRepo(repo, now, candidate);
+        } catch (e) {
+          errors.push("candidate_" + candidate.repositoryId);
+          return candidate;
+        }
+      }),
+    );
   candidates = candidates.filter((c) => !c.archived && !c.fork);
   const incoming = tools.flatMap((t) => toolObservations(t, now));
   for (const c of candidates)
-    if (c.lastSuccessfulAt === now)
+    if (pollDiscovery && c.lastSuccessfulAt === now)
       incoming.push({
         repositoryId: c.repositoryId,
         scopePath: "",
@@ -222,7 +241,7 @@ export async function collectAll({
     days: 90,
   });
   let report = previous.current.weekly;
-  if (due && successes > 0) {
+  if (due && discoverySuccesses > 0) {
     report = buildWeeklyReport({
       candidates,
       observations: history,
@@ -249,7 +268,15 @@ export async function collectAll({
     weekly: report,
     run: {
       lastAttemptAt: now,
-      lastSuccessfulAt: successes ? now : previous.current.run.lastSuccessfulAt,
+      lastSuccessfulAt:
+        meaningfulSuccesses ||
+        (issuesSucceeded &&
+          tools.length === 0 &&
+          (collectionMode === "registration" ||
+            (previous.candidates.length === 0 &&
+              config.discoveryQueries.length === 0)))
+          ? now
+          : previous.current.run.lastSuccessfulAt,
       lastPublishedAt: previous.current.run.lastPublishedAt ?? null,
       status: errors.length ? (successes ? "partial" : "error") : "ok",
       workflowUrl,
@@ -302,7 +329,7 @@ async function main() {
       limits: config.limits,
     }),
     now,
-    weekly: mode === "weekly",
+    mode,
     workflowUrl,
   });
   await writeStoredData({ directory, data });

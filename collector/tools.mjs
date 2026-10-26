@@ -54,6 +54,21 @@ export async function collectTool({
       !list.complete ? "partial" : value ? "ok" : "missing",
       now,
     );
+    if (
+      !list.complete &&
+      previous?.release?.succeededAt &&
+      (!value ||
+        !previous.release.value ||
+        Date.parse(value.publishedAt) <=
+          Date.parse(previous.release.value.publishedAt))
+    ) {
+      release = {
+        ...release,
+        value: previous.release.value ?? null,
+        succeededAt: previous.release.succeededAt,
+        errorCode: "incomplete_releases",
+      };
+    } else if (!list.complete && !value) release.succeededAt = null;
   } catch (e) {
     release = field(null, "error", now, previous?.release, errorCode(e));
   }
@@ -143,6 +158,8 @@ export async function collectTool({
   const baselineAvailable = !!previous;
   const changes = {
     baselineAvailable,
+    releaseBaselineAvailable: !!previous?.release?.succeededAt,
+    commitBaselineAvailable: !!previous?.activity?.succeededAt,
     releaseChanged:
       baselineAvailable &&
       release.status === "ok" &&
