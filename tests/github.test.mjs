@@ -1,7 +1,58 @@
-import test from 'node:test';import assert from 'node:assert/strict';
-import {createGitHubClient} from '../collector/github.mjs';
-const response=(data,status=200,headers={})=>new Response(JSON.stringify(data),{status,headers});
-test('public API failures stay distinguishable and are never empty successes',async()=>{for(const status of [401,404,409,429]){const c=createGitHubClient({fetchImpl:async()=>response({message:'failure'},status),limits:{retries:0}});await assert.rejects(c.get('/repos/a/b'),e=>e.status===status)}});
-test('request budget terminates retries and pagination reports incompleteness',async()=>{const c=createGitHubClient({limits:{requests:1,retries:0},fetchImpl:async()=>response([1],200,{link:'<https://api.github.com/repos/a/b/commits?page=2>; rel="next"'})});assert.deepEqual(await c.paginate('/repos/a/b/commits',{maxPages:1}),{items:[1],complete:false});await assert.rejects(c.get('/repos/c/d'),e=>e.code==='budget')});
-test('untrusted redirects never receive the token',async()=>{let leaked=false;const c=createGitHubClient({token:'private',fetchImpl:async url=>{if(new URL(url).hostname!=='api.github.com')leaked=true;return new Response(null,{status:302,headers:{location:'https://attacker.test/'}})}});await assert.rejects(c.get('/repos/a/b'),e=>e.code==='unsafe_redirect');assert.equal(leaked,false)});
-test('concurrent identical reads share one actual network result',async()=>{let count=0;const c=createGitHubClient({fetchImpl:async()=>{count++;return response({id:1})}});const r=await Promise.all([c.get('/repos/a/b'),c.get('/repos/a/b')]);assert.equal(r[0].data.id,1);assert.equal(count,1)});
+import test from "node:test";
+import assert from "node:assert/strict";
+import { createGitHubClient } from "../collector/github.mjs";
+const response = (data, status = 200, headers = {}) =>
+  new Response(JSON.stringify(data), { status, headers });
+test("public API failures stay distinguishable and are never empty successes", async () => {
+  for (const status of [401, 404, 409, 429]) {
+    const c = createGitHubClient({
+      fetchImpl: async () => response({ message: "failure" }, status),
+      limits: { retries: 0 },
+    });
+    await assert.rejects(c.get("/repos/a/b"), (e) => e.status === status);
+  }
+});
+test("request budget terminates retries and pagination reports incompleteness", async () => {
+  const c = createGitHubClient({
+    limits: { requests: 1, retries: 0 },
+    fetchImpl: async () =>
+      response([1], 200, {
+        link: '<https://api.github.com/repos/a/b/commits?page=2>; rel="next"',
+      }),
+  });
+  assert.deepEqual(await c.paginate("/repos/a/b/commits", { maxPages: 1 }), {
+    items: [1],
+    complete: false,
+  });
+  await assert.rejects(c.get("/repos/c/d"), (e) => e.code === "budget");
+});
+test("untrusted redirects never receive the token", async () => {
+  let leaked = false;
+  const c = createGitHubClient({
+    token: "private",
+    fetchImpl: async (url) => {
+      if (new URL(url).hostname !== "api.github.com") leaked = true;
+      return new Response(null, {
+        status: 302,
+        headers: { location: "https://attacker.test/" },
+      });
+    },
+  });
+  await assert.rejects(
+    c.get("/repos/a/b"),
+    (e) => e.code === "unsafe_redirect",
+  );
+  assert.equal(leaked, false);
+});
+test("concurrent identical reads share one actual network result", async () => {
+  let count = 0;
+  const c = createGitHubClient({
+    fetchImpl: async () => {
+      count++;
+      return response({ id: 1 });
+    },
+  });
+  const r = await Promise.all([c.get("/repos/a/b"), c.get("/repos/a/b")]);
+  assert.equal(r[0].data.id, 1);
+  assert.equal(count, 1);
+});

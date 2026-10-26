@@ -1,6 +1,57 @@
-import test from 'node:test';import assert from 'node:assert/strict';
-import {parseViewState,serializeViewState,selectVisibleTools} from '../web/state.mjs';
-const data={registrations:Array.from({length:25},(_,i)=>({id:String(i+1),issueNumber:i+1,name:'도구 '+String(i+1).padStart(2,'0'),memo:i===0?'한글 메모':'',kind:i%2?'MCP':'Skill',category:i%2?'문서':'개발',target:null,validation:{status:'invalid'}})),tools:[]};
-test('Unicode filters and selection survive URL round trips',()=>{const s=parseViewState('?q=%ED%95%9C%EA%B8%80&kind=Skill&selected=1');const round=parseViewState(serializeViewState(s));assert.equal(round.query,'한글');assert.equal(round.selectedId,'1');assert.equal(selectVisibleTools(data,s).rows.length,1)});
-test('default list caps at20 and supports more with stable filtering counts',()=>{const state=parseViewState('');const r=selectVisibleTools(data,state);assert.equal(r.rows.length,20);assert.equal(r.total,25);assert.equal(r.hasMore,true);assert.equal(selectVisibleTools(data,{...state,limit:40}).rows.length,25);assert.equal(selectVisibleTools(data,{...state,category:'문서'}).total,12);assert.equal(r.counts.attention,25)});
-test('invalid state cannot strand the list on an impossible page or unknown selection',()=>{const s=parseViewState('?limit=-99&view=bad&selected=oops&sort=bad');assert.equal(s.limit,20);assert.equal(s.view,'watchlist');assert.equal(s.selectedId,null);assert.equal(selectVisibleTools(data,{...s,selectedId:'999'}).selected,null);assert.equal(selectVisibleTools({registrations:[],tools:[]},s).total,0)});
+import test from "node:test";
+import assert from "node:assert/strict";
+import {
+  parseViewState,
+  serializeViewState,
+  selectVisibleTools,
+} from "../web/state.mjs";
+const data = {
+  registrations: Array.from({ length: 25 }, (_, i) => ({
+    id: String(i + 1),
+    issueNumber: i + 1,
+    name: "도구 " + String(i + 1).padStart(2, "0"),
+    memo: i === 0 ? "한글 메모" : "",
+    kind: i % 2 ? "MCP" : "Skill",
+    category: i % 2 ? "문서" : "개발",
+    target: null,
+    validation: { status: "invalid" },
+  })),
+  tools: [],
+};
+test("Unicode filters and selection survive URL round trips", () => {
+  const s = parseViewState("?q=%ED%95%9C%EA%B8%80&kind=Skill&selected=1");
+  const round = parseViewState(serializeViewState(s));
+  assert.equal(round.query, "한글");
+  assert.equal(round.selectedId, "1");
+  assert.equal(selectVisibleTools(data, s).rows.length, 1);
+});
+test("default list caps at20 and supports more with stable filtering counts", () => {
+  const state = parseViewState("");
+  const r = selectVisibleTools(data, state);
+  assert.equal(r.rows.length, 20);
+  assert.equal(r.total, 25);
+  assert.equal(r.hasMore, true);
+  assert.equal(
+    selectVisibleTools(data, { ...state, limit: 40 }).rows.length,
+    25,
+  );
+  assert.equal(
+    selectVisibleTools(data, { ...state, category: "문서" }).total,
+    12,
+  );
+  assert.equal(r.counts.attention, 25);
+});
+test("invalid state cannot strand the list on an impossible page or unknown selection", () => {
+  const s = parseViewState("?limit=-99&view=bad&selected=oops&sort=bad");
+  assert.equal(s.limit, 20);
+  assert.equal(s.view, "watchlist");
+  assert.equal(s.selectedId, null);
+  assert.equal(
+    selectVisibleTools(data, { ...s, selectedId: "999" }).selected,
+    null,
+  );
+  assert.equal(
+    selectVisibleTools({ registrations: [], tools: [] }, s).total,
+    0,
+  );
+});

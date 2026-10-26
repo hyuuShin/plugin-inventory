@@ -5,3 +5,7 @@ node_modules/
 .env.*
 !.env.example
 .taste-skill/
+.collected/
+.data.staging-*/
+data.backup/
+premium-audit.json

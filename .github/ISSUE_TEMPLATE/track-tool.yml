@@ -30,7 +30,17 @@ body:
     id: category
     attributes:
       label: 용도 분류
-      options: ["개발", "브라우저", "문서", "디자인", "데이터", "업무 자동화", "조사", "기타"]
+      options:
+        [
+          "개발",
+          "브라우저",
+          "문서",
+          "디자인",
+          "데이터",
+          "업무 자동화",
+          "조사",
+          "기타",
+        ]
     validations:
       required: true
   - type: textarea

@@ -1,8 +1,108 @@
-import test from 'node:test';import assert from 'node:assert/strict';
-import * as fs from 'node:fs/promises';import {join} from 'node:path';import {tmpdir} from 'node:os';
-import {collectAll,writeStoredData,readStoredData} from '../collector/run.mjs';
-import {fixtureConfig,fixtureStored,fixtureMetadata,NOW} from './helpers/fixtures.mjs';
-test('bootstrap discovers real-shaped candidates without inventing interest registrations',async()=>{const client={paginate:async p=>({items:p.includes('/search/')?[fixtureMetadata()]:[],complete:true}),get:async()=>({data:fixtureMetadata()})};const data=await collectAll({config:fixtureConfig({discoveryQueries:['topic:agent-skills']}),previous:fixtureStored(),client,now:NOW,weekly:false});assert.deepEqual(data.current.registrations,[]);assert.equal(data.current.weekly.newcomers[0].stars,100);assert.equal(data.current.weekly.growth.length,0);assert.equal(data.current.run.lastSuccessfulAt,NOW)});
-test('whole API failure preserves history last success and old publication',async()=>{const previous=fixtureStored();previous.current.run.lastSuccessfulAt='2026-10-25T00:00:00Z';previous.history=[{repositoryId:1,scopePath:'',observedAt:'2026-10-25T00:00:00Z',stars:42,valid:{stars:true}}];const fail=async()=>{throw Object.assign(Error('failed'),{code:'network'})};const data=await collectAll({config:fixtureConfig({discoveryQueries:['query']}),previous,client:{paginate:fail,get:fail},now:NOW,weekly:true});assert.equal(data.current.run.status,'error');assert.equal(data.current.run.lastSuccessfulAt,'2026-10-25T00:00:00Z');assert.equal(data.current.weekly,null);assert.equal(data.history[0].stars,42)});
-test('schema and staging write errors cannot damage a valid stored snapshot',async()=>{const root=await fs.mkdtemp(join(tmpdir(),'inventory-data-')),directory=join(root,'data');try{const old=fixtureStored();await writeStoredData({directory,data:old});await assert.rejects(writeStoredData({directory,data:{...old,current:{schemaVersion:99}}}));const io={...fs,writeFile:async()=>{throw Error('disk failed')}};await assert.rejects(writeStoredData({directory,data:old,io}));assert.deepEqual(await readStoredData(directory),old)}finally{await fs.rm(root,{recursive:true,force:true})}});
-test('failed directory swap rolls back all four files',async()=>{const root=await fs.mkdtemp(join(tmpdir(),'inventory-swap-')),directory=join(root,'data');try{const old=fixtureStored();await writeStoredData({directory,data:old});const next=fixtureStored();next.current.run.lastAttemptAt=NOW;const io={...fs,rename:async(a,b)=>{if(a.includes('.staging-'))throw Error('rename failed');return fs.rename(a,b)}};await assert.rejects(writeStoredData({directory,data:next,io}));assert.deepEqual(await readStoredData(directory),old)}finally{await fs.rm(root,{recursive:true,force:true})}});
+import test from "node:test";
+import assert from "node:assert/strict";
+import * as fs from "node:fs/promises";
+import { join } from "node:path";
+import { tmpdir } from "node:os";
+import {
+  collectAll,
+  writeStoredData,
+  readStoredData,
+} from "../collector/run.mjs";
+import {
+  fixtureConfig,
+  fixtureStored,
+  fixtureMetadata,
+  NOW,
+} from "./helpers/fixtures.mjs";
+test("bootstrap discovers real-shaped candidates without inventing interest registrations", async () => {
+  const client = {
+    paginate: async (p) => ({
+      items: p.includes("/search/") ? [fixtureMetadata()] : [],
+      complete: true,
+    }),
+    get: async () => ({ data: fixtureMetadata() }),
+  };
+  const data = await collectAll({
+    config: fixtureConfig({ discoveryQueries: ["topic:agent-skills"] }),
+    previous: fixtureStored(),
+    client,
+    now: NOW,
+    weekly: false,
+  });
+  assert.deepEqual(data.current.registrations, []);
+  assert.equal(data.current.weekly.newcomers[0].stars, 100);
+  assert.equal(data.current.weekly.growth.length, 0);
+  assert.equal(data.current.run.lastSuccessfulAt, NOW);
+});
+test("whole API failure preserves history last success and old publication", async () => {
+  const previous = fixtureStored();
+  previous.current.run.lastSuccessfulAt = "2026-10-25T00:00:00Z";
+  previous.history = [
+    {
+      repositoryId: 1,
+      scopePath: "",
+      observedAt: "2026-10-25T00:00:00Z",
+      stars: 42,
+      valid: { stars: true },
+    },
+  ];
+  const fail = async () => {
+    throw Object.assign(Error("failed"), { code: "network" });
+  };
+  const data = await collectAll({
+    config: fixtureConfig({ discoveryQueries: ["query"] }),
+    previous,
+    client: { paginate: fail, get: fail },
+    now: NOW,
+    weekly: true,
+  });
+  assert.equal(data.current.run.status, "error");
+  assert.equal(data.current.run.lastSuccessfulAt, "2026-10-25T00:00:00Z");
+  assert.equal(data.current.weekly, null);
+  assert.equal(data.history[0].stars, 42);
+});
+test("schema and staging write errors cannot damage a valid stored snapshot", async () => {
+  const root = await fs.mkdtemp(join(tmpdir(), "inventory-data-")),
+    directory = join(root, "data");
+  try {
+    const old = fixtureStored();
+    await writeStoredData({ directory, data: old });
+    await assert.rejects(
+      writeStoredData({
+        directory,
+        data: { ...old, current: { schemaVersion: 99 } },
+      }),
+    );
+    const io = {
+      ...fs,
+      writeFile: async () => {
+        throw Error("disk failed");
+      },
+    };
+    await assert.rejects(writeStoredData({ directory, data: old, io }));
+    assert.deepEqual(await readStoredData(directory), old);
+  } finally {
+    await fs.rm(root, { recursive: true, force: true });
+  }
+});
+test("failed directory swap rolls back all four files", async () => {
+  const root = await fs.mkdtemp(join(tmpdir(), "inventory-swap-")),
+    directory = join(root, "data");
+  try {
+    const old = fixtureStored();
+    await writeStoredData({ directory, data: old });
+    const next = fixtureStored();
+    next.current.run.lastAttemptAt = NOW;
+    const io = {
+      ...fs,
+      rename: async (a, b) => {
+        if (a.includes(".staging-")) throw Error("rename failed");
+        return fs.rename(a, b);
+      },
+    };
+    await assert.rejects(writeStoredData({ directory, data: next, io }));
+    assert.deepEqual(await readStoredData(directory), old);
+  } finally {
+    await fs.rm(root, { recursive: true, force: true });
+  }
+});

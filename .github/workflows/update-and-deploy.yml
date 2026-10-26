@@ -1,0 +1,144 @@
+name: Update and deploy
+on:
+  push:
+    branches: [main]
+    paths-ignore: ["data/**"]
+  issues:
+    types: [opened, edited, closed, reopened, labeled, unlabeled]
+  schedule:
+    - cron: "17 0 * * *"
+    - cron: "43 0 * * 1"
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: Collection mode
+        type: choice
+        options: [daily, weekly, registration]
+        default: daily
+      dry_run:
+        description: Collect and validate without committing or publishing
+        type: boolean
+        default: false
+permissions: {}
+concurrency:
+  group: plugin-inventory-production
+  cancel-in-progress: false
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: read
+    outputs:
+      sha: ${{ steps.source.outputs.sha }}
+      allowed: ${{ steps.policy.outputs.allowed }}
+      mode: ${{ steps.policy.outputs.mode }}
+      dry_run: ${{ steps.policy.outputs.dry_run }}
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          ref: main
+          persist-credentials: false
+      - uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38 # v6
+        with:
+          node-version: "22"
+      - id: policy
+        run: node scripts/workflow-policy.mjs
+      - id: source
+        run: echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+      - if: steps.policy.outputs.allowed == 'true'
+        run: npm test
+      - if: steps.policy.outputs.allowed == 'true'
+        run: npm run build
+      - if: steps.policy.outputs.allowed == 'true'
+        run: npm run check
+  collect:
+    needs: verify
+    if: needs.verify.outputs.allowed == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    permissions:
+      contents: read
+      issues: read
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          ref: ${{ needs.verify.outputs.sha }}
+          persist-credentials: false
+      - uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38 # v6
+        with:
+          node-version: "22"
+      - run: node collector/run.mjs --mode "$MODE"
+        env:
+          GH_TOKEN: ${{ github.token }}
+          MODE: ${{ needs.verify.outputs.mode }}
+      - run: npm run build
+      - run: npm run check
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: inventory-data
+          path: data/*.json
+          retention-days: 1
+          if-no-files-found: error
+  prepare:
+    needs: [verify, collect]
+    if: needs.verify.outputs.dry_run != 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    outputs:
+      sha: ${{ steps.persist.outputs.sha }}
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          ref: ${{ needs.verify.outputs.sha }}
+          fetch-depth: 0
+      - uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38 # v6
+        with:
+          node-version: "22"
+      - uses: actions/download-artifact@634f93cb2916e3fdff6788551b99b062d0335ce0 # v5
+        with:
+          name: inventory-data
+          path: .collected
+      - id: persist
+        run: node scripts/persist-data.mjs
+        env:
+          EXPECTED_HEAD: ${{ needs.verify.outputs.sha }}
+      - run: npm run build
+      - run: npm run check
+      - uses: actions/upload-pages-artifact@7b1f4a764d45c48632c6b24a0339c27f5614fb0b # v4
+        with:
+          path: dist
+          retention-days: 1
+  deploy:
+    needs: prepare
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy verified artifact
+        id: deployment
+        uses: actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e # v4
+  record:
+    needs: [prepare, deploy]
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          ref: ${{ needs.prepare.outputs.sha }}
+          fetch-depth: 0
+      - uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38 # v6
+        with:
+          node-version: "22"
+      - run: node scripts/persist-data.mjs --record
+        env:
+          EXPECTED_HEAD: ${{ needs.prepare.outputs.sha }}

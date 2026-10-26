@@ -1,6 +1,31 @@
 {
-  "owner":"hyuuShin","repository":"plugin-inventory","basePath":"/plugin-inventory/","timeZone":"Asia/Seoul",
-  "categories":["개발","브라우저","문서","디자인","데이터","업무 자동화","조사","기타"],
-  "limits":{"registrations":100,"candidates":200,"requests":800,"concurrency":3,"timeoutMs":20000,"retries":2,"commitPages":5},
-  "discoveryQueries":["topic:mcp-server archived:false fork:false","topic:model-context-protocol archived:false fork:false","topic:agent-skills archived:false fork:false","claude-code plugin in:name,description archived:false fork:false"]
+  "owner": "hyuuShin",
+  "repository": "plugin-inventory",
+  "basePath": "/plugin-inventory/",
+  "timeZone": "Asia/Seoul",
+  "categories": [
+    "개발",
+    "브라우저",
+    "문서",
+    "디자인",
+    "데이터",
+    "업무 자동화",
+    "조사",
+    "기타"
+  ],
+  "limits": {
+    "registrations": 100,
+    "candidates": 200,
+    "requests": 800,
+    "concurrency": 3,
+    "timeoutMs": 20000,
+    "retries": 2,
+    "commitPages": 5
+  },
+  "discoveryQueries": [
+    "topic:mcp-server archived:false fork:false",
+    "topic:model-context-protocol archived:false fork:false",
+    "topic:agent-skills archived:false fork:false",
+    "claude-code plugin in:name,description archived:false fork:false"
+  ]
 }

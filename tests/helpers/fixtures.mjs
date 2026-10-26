@@ -1,6 +1,81 @@
-export const NOW='2026-10-26T00:17:00Z';
-export const fixtureConfig=(o={})=>({owner:'hyuuShin',repository:'plugin-inventory',basePath:'/plugin-inventory/',timeZone:'Asia/Seoul',categories:['개발','브라우저','문서','디자인','데이터','업무 자동화','조사','기타'],limits:{registrations:100,candidates:200,requests:800,concurrency:3,timeoutMs:20000,retries:2,commitPages:5},discoveryQueries:[],...o});
-export const fixtureIssue=(o={})=>({number:1,state:'open',user:{login:'hyuuShin'},labels:[{name:'watchlist'}],html_url:'https://github.com/hyuuShin/plugin-inventory/issues/1',body:'### GitHub 주소\n\nhttps://github.com/example/tool\n\n### 표시 이름\n\nTool\n\n### 유형\n\nSkill\n\n### 용도 분류\n\n개발\n\n### 내 사용법 메모\n\n작업에 사용합니다.',...o});
-export const fixtureTarget=(o={})=>({repositoryId:1,owner:'example',repo:'tool',defaultBranch:'main',scopeType:'repository',scopePath:'',url:'https://github.com/example/tool',...o});
-export const fixtureMetadata=(o={})=>({id:1,owner:{login:'example'},name:'tool',full_name:'example/tool',html_url:'https://github.com/example/tool',default_branch:'main',description:'Tool description',stargazers_count:100,archived:false,fork:false,pushed_at:'2026-10-25T00:00:00Z',topics:['agent-skills'],...o});
-export const fixtureStored=(o={})=>({current:{schemaVersion:1,registrations:[],tools:[],weekly:null,run:{lastAttemptAt:null,lastSuccessfulAt:null,lastPublishedAt:null,status:'never',workflowUrl:null}},history:[],candidates:[],weeks:[],...o});
+export const NOW = "2026-10-26T00:17:00Z";
+export const fixtureConfig = (o = {}) => ({
+  owner: "hyuuShin",
+  repository: "plugin-inventory",
+  basePath: "/plugin-inventory/",
+  timeZone: "Asia/Seoul",
+  categories: [
+    "개발",
+    "브라우저",
+    "문서",
+    "디자인",
+    "데이터",
+    "업무 자동화",
+    "조사",
+    "기타",
+  ],
+  limits: {
+    registrations: 100,
+    candidates: 200,
+    requests: 800,
+    concurrency: 3,
+    timeoutMs: 20000,
+    retries: 2,
+    commitPages: 5,
+  },
+  discoveryQueries: [],
+  ...o,
+});
+export const fixtureIssue = (o = {}) => ({
+  number: 1,
+  state: "open",
+  user: { login: "hyuuShin" },
+  labels: [{ name: "watchlist" }],
+  html_url: "https://github.com/hyuuShin/plugin-inventory/issues/1",
+  body: "### GitHub 주소\n\nhttps://github.com/example/tool\n\n### 표시 이름\n\nTool\n\n### 유형\n\nSkill\n\n### 용도 분류\n\n개발\n\n### 내 사용법 메모\n\n작업에 사용합니다.",
+  ...o,
+});
+export const fixtureTarget = (o = {}) => ({
+  repositoryId: 1,
+  owner: "example",
+  repo: "tool",
+  defaultBranch: "main",
+  scopeType: "repository",
+  scopePath: "",
+  url: "https://github.com/example/tool",
+  ...o,
+});
+export const fixtureMetadata = (o = {}) => ({
+  id: 1,
+  owner: { login: "example" },
+  name: "tool",
+  full_name: "example/tool",
+  html_url: "https://github.com/example/tool",
+  default_branch: "main",
+  description: "Tool description",
+  stargazers_count: 100,
+  archived: false,
+  fork: false,
+  pushed_at: "2026-10-25T00:00:00Z",
+  topics: ["agent-skills"],
+  ...o,
+});
+export const fixtureStored = (o = {}) => ({
+  current: {
+    schemaVersion: 1,
+    registrations: [],
+    tools: [],
+    weekly: null,
+    run: {
+      lastAttemptAt: null,
+      lastSuccessfulAt: null,
+      lastPublishedAt: null,
+      status: "never",
+      workflowUrl: null,
+    },
+  },
+  history: [],
+  candidates: [],
+  weeks: [],
+  ...o,
+});
