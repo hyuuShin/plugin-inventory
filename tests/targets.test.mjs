@@ -1,0 +1,7 @@
+import test from 'node:test';import assert from 'node:assert/strict';
+import {parseGitHubUrl,resolveTarget} from '../collector/targets.mjs';
+import {fixtureMetadata} from './helpers/fixtures.mjs';
+const client={get:async()=>({data:fixtureMetadata({default_branch:'feature/main'})})};
+test('scope resolution preserves slash default branch and Korean encoded path',async()=>{const root=await resolveTarget('https://github.com/example/tool?x=1#readme',client);assert.equal(root.scopeType,'repository');const d=await resolveTarget('https://github.com/example/tool/tree/feature/main/skills/%ED%95%9C%EA%B8%80',client);assert.equal(d.scopeType,'directory');assert.equal(d.scopePath,'skills/한글');const f=await resolveTarget('https://github.com/example/tool/blob/feature/main/skills/a/SKILL.md',client);assert.equal(f.scopeType,'file');assert.equal(f.scopePath,'skills/a/SKILL.md')});
+test('invalid hosts credentials ports dot paths and nondefault refs are rejected',async()=>{for(const u of ['https://github.com:444/a/b','https://name@github.com/a/b','https://other.test/a/b','https://github.com/a/b/tree/main/%2e%2e/key','https://github.com/a/b/tree/main/%QQ'])assert.throws(()=>parseGitHubUrl(u));await assert.rejects(resolveTarget('https://github.com/a/b/tree/other/skills',client),/기본 브랜치/)});
+test('private repository is outside public collection even with credentials',async()=>{await assert.rejects(resolveTarget('https://github.com/a/b',{get:async()=>({data:fixtureMetadata({private:true})})}),/공개/)});
