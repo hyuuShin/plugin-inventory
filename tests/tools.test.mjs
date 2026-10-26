@@ -22,7 +22,11 @@ function client({
         return { data: { type: "file" } };
       }
       if (path.endsWith("/commits")) {
-        if (empty) throw Object.assign(Error("empty"), { status: 409 });
+        if (empty)
+          throw Object.assign(Error("empty"), {
+            status: 409,
+            code: "empty_repository",
+          });
         return { data: commits.slice(0, 1) };
       }
       return { data: fixtureMetadata() };
@@ -36,7 +40,11 @@ function client({
           });
         return { items: releases, complete: true };
       }
-      if (empty) throw Object.assign(Error("empty"), { status: 409 });
+      if (empty)
+        throw Object.assign(Error("empty"), {
+          status: 409,
+          code: "empty_repository",
+        });
       return { items: commits, complete };
     },
   };

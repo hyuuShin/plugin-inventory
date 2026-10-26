@@ -119,7 +119,9 @@ function detail(row) {
   if (m?.archived)
     sections.push(text("GitHub에서 보관된 저장소입니다.", "notice"));
   if (a?.bins?.length) {
-    const max = Math.max(1, ...a.bins.map((b) => b.count ?? 0)),
+    const max = a.bins.some((b) => b.count !== null)
+        ? Math.max(0, ...a.bins.map((b) => b.count ?? 0))
+        : null,
       bars = node("div", {
         class: "activity",
         role: "img",
@@ -134,7 +136,9 @@ function detail(row) {
         class: b.count === null ? "unknown" : b.count === 0 ? "zero" : "",
       });
       bar.style.height =
-        (b.count === null ? 100 : Math.max(3, (b.count / max) * 100)) + "%";
+        (b.count === null
+          ? 100
+          : Math.max(3, (b.count / Math.max(1, max ?? 0)) * 100)) + "%";
       bars.append(bar);
     });
     sections.push(
@@ -147,7 +151,13 @@ function detail(row) {
           "div",
           { class: "chart-caption" },
           node("span", {}, "12주 전"),
-          node("span", {}, "주별 커밋 · 최대 " + formatNumber(max) + "회"),
+          node(
+            "span",
+            {},
+            max === null
+              ? "커밋 수 미확인"
+              : "주별 커밋 · 최대 " + formatNumber(max) + "회",
+          ),
           node("span", {}, "최근"),
         ),
         a.complete

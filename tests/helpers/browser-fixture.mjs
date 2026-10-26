@@ -84,6 +84,9 @@ for (let i = 1; i <= 25; i++) {
 }
 tools[4].activity.status = "error";
 tools[4].activity.errorCode = "http_503";
+tools[5].activity.value.bins.forEach((bin) => {
+  bin.count = 0;
+});
 const candidate = {
   repositoryId: 900,
   fullName: "example/qa-discovery",

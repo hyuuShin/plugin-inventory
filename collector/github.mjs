@@ -95,11 +95,15 @@ export function createGitHubClient({
         );
         continue;
       }
-      if (!response.ok)
-        throw new GitHubError(
-          response.status,
-          rateLimited ? "rate_limit" : "http_" + response.status,
-        );
+      let failureCode = rateLimited ? "rate_limit" : "http_" + response.status;
+      if (response.status === 409) {
+        try {
+          const body = await response.json();
+          if (/git repository is empty/i.test(body.message ?? ""))
+            failureCode = "empty_repository";
+        } catch {}
+      }
+      if (!response.ok) throw new GitHubError(response.status, failureCode);
       let data;
       try {
         data = await response.json();

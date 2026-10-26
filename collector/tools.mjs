@@ -100,7 +100,7 @@ export async function collectTool({
       commits = list.items;
       complete = list.complete;
     } catch (e) {
-      if (e.status !== 409) throw e;
+      if (e.code !== "empty_repository") throw e;
     }
     const start = Date.parse(now) - 84 * DAY,
       dates = commits
@@ -146,12 +146,12 @@ export async function collectTool({
     releaseChanged:
       baselineAvailable &&
       release.status === "ok" &&
-      previous.release?.status !== "error" &&
+      !!previous.release?.succeededAt &&
       release.value?.id !== previous.release?.value?.id,
     commitChanged:
       baselineAvailable &&
       activity.status !== "error" &&
-      previous.activity?.status !== "error" &&
+      !!previous.activity?.succeededAt &&
       activity.value?.lastCommitSha !== previous.activity?.value?.lastCommitSha,
   };
   return { id: registration.id, target, metadata, release, activity, changes };

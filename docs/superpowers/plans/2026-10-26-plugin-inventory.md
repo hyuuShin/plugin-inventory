@@ -1,6 +1,6 @@
 # Plugin Inventory Implementation Plan
 
-> **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
+> **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [x]`) syntax for tracking.
 
 **Goal:** 직접 등록한 GitHub AI 도구의 변경·사용법과 주간 발견을 공개 GitHub Pages 웹앱에서 관리한다.
 
@@ -89,11 +89,11 @@ README.md                              # 등록·운영·수동 갱신·복구
 
 **Interfaces:** Produces `validateConfig(value):AppConfig`, `validateSiteData(value):SiteData`, `createEmptyStored(config, now):StoredData`, `buildSite({rootDir,outDir,config}):Promise<void>`. Static build writes `dist/index.html`, assets, `dist/config.json`, and `dist/data/` with only public data. npm commands: `test`, `build`, `check`, `preview`, `collect`.
 
-- [ ] Write `validates_empty_site`, `rejects_wrong_owner_and_unsupported_schema`, `builds_project_subpath`, `does_not_copy_test_or_mockup_files`: assert owner `hyuuShin`, schema 1, empty registrations, `/plugin-inventory/` URLs, and no `.superpowers`, token, workflow or fixture in dist. Node tests use temporary directories and clean them up.
-- [ ] Run `node --test tests/contracts.test.mjs tests/build.test.mjs`; confirm they fail because the public functions do not exist.
-- [ ] Implement the contracts, config, empty JSON and copy/validation build. Use UTC time inputs passed into functions, not wall-clock-dependent tests. Set initial budgets: 800 requests/run, 3 concurrent requests, 20s request timeout, at most 2 retries, at most 5 commit pages per scope. Store explicit partial states when a limit is reached. Set repo and base path from config.
-- [ ] Run the two tests, `npm run build`, `npm run check`; require all pass and dist has a valid empty dataset.
-- [ ] Commit as `feat: add validated static app foundation`.
+- [x] Write `validates_empty_site`, `rejects_wrong_owner_and_unsupported_schema`, `builds_project_subpath`, `does_not_copy_test_or_mockup_files`: assert owner `hyuuShin`, schema 1, empty registrations, `/plugin-inventory/` URLs, and no `.superpowers`, token, workflow or fixture in dist. Node tests use temporary directories and clean them up.
+- [x] Run `node --test tests/contracts.test.mjs tests/build.test.mjs`; confirm they fail because the public functions do not exist.
+- [x] Implement the contracts, config, empty JSON and copy/validation build. Use UTC time inputs passed into functions, not wall-clock-dependent tests. Set initial budgets: 800 requests/run, 3 concurrent requests, 20s request timeout, at most 2 retries, at most 5 commit pages per scope. Store explicit partial states when a limit is reached. Set repo and base path from config.
+- [x] Run the two tests, `npm run build`, `npm run check`; require all pass and dist has a valid empty dataset.
+- [x] Commit as `feat: add validated static app foundation`.
 
 ## Task 2: GitHub client and target scope resolution
 
@@ -101,11 +101,11 @@ README.md                              # 등록·운영·수동 갱신·복구
 
 **Interfaces:** Produces `createGitHubClient({token,fetchImpl,limits,clock,sleep}):{get,paginate,budget}` where `get(path,{query}={}):Promise<{data,status}>` accepts only GitHub REST paths, and `paginate(path,{query,maxPages}):Promise<{items,complete}>` follows bounded API pagination. Produces `parseGitHubUrl(input):{owner,repo,route,encodedTail}`, `resolveTarget(input,client):Promise<Target>`. Network and timers are injected for tests.
 
-- [ ] Write tests `resolves_root_tree_blob_and_slash_default_branch`, `preserves_korean_and_encoded_paths`, `rejects_non_default_refs_and_credential_urls`, `rejects_off_host_redirects`, `distinguishes_api_404_401_429_and_empty_409`, `stops_at_budget_and_marks_pagination_partial`. Assert file scope stays a file, tree scope stays its exact directory, a repository's default branch is obtained from metadata, and retries are bounded.
-- [ ] Run `node --test tests/github.test.mjs tests/targets.test.mjs`; verify missing implementation failures.
-- [ ] Implement URL validation and metadata resolution, API response/error mapping, budget reservation before concurrent dispatch, same-host redirect restrictions, Retry-After handling capped at 120 seconds, and cache/deduplication of repeated requests within a run. URL credentials, ports, dot traversal and malformed percent-encoding are invalid. A 404 is an inaccessible resource, not a fabricated empty list.
-- [ ] Rerun both suites; prove no test uses live network or real credentials.
-- [ ] Commit as `feat: resolve public GitHub tracking scopes`.
+- [x] Write tests `resolves_root_tree_blob_and_slash_default_branch`, `preserves_korean_and_encoded_paths`, `rejects_non_default_refs_and_credential_urls`, `rejects_off_host_redirects`, `distinguishes_api_404_401_429_and_empty_409`, `stops_at_budget_and_marks_pagination_partial`. Assert file scope stays a file, tree scope stays its exact directory, a repository's default branch is obtained from metadata, and retries are bounded.
+- [x] Run `node --test tests/github.test.mjs tests/targets.test.mjs`; verify missing implementation failures.
+- [x] Implement URL validation and metadata resolution, API response/error mapping, budget reservation before concurrent dispatch, same-host redirect restrictions, Retry-After handling capped at 120 seconds, and cache/deduplication of repeated requests within a run. URL credentials, ports, dot traversal and malformed percent-encoding are invalid. A 404 is an inaccessible resource, not a fabricated empty list.
+- [x] Rerun both suites; prove no test uses live network or real credentials.
+- [x] Commit as `feat: resolve public GitHub tracking scopes`.
 
 ## Task 3: Owner-managed Issue registration lifecycle
 
@@ -113,11 +113,11 @@ README.md                              # 등록·운영·수동 갱신·복구
 
 **Interfaces:** Consumes config and Task 2 target resolver. Produces `parseRegistrationIssue(issue,config):{draft,error}`, `syncRegistrations({issues,config,resolve}):Promise<Registration[]>`. Form headings are exactly `GitHub 주소`, `표시 이름`, `유형`, `용도 분류`, `내 사용법 메모`, with respective field IDs `github-url`, `display-name`, `kind`, `category`, `usage-memo`; label `watchlist`; blank optional answers normalize to empty strings. Invalid registrations remain visible with null target and an actionable validation message.
 
-- [ ] Write tests `owner_only_open_issue`, `ignores_pr_and_external_author`, `updates_memo_and_handles_close_reopen`, `chooses_lowest_open_issue_for_duplicate_scope`, `retains_different_paths_in_one_repo`, `shows_bad_registration_without_stopping_good_ones`, `limits_100_without_silent_drop`, `keeps_shell_and_html_payload_inert`. Assert exact kind/category validation, size limits, and ignored external Issues never request target metadata.
-- [ ] Run `node --test tests/registrations.test.mjs`; verify expected missing-function failures.
-- [ ] Implement stable heading parsing and the input forms. Enforce name <=120, memo <=4000, URL <=2048 characters; larger or malformed answers become validation errors. Read fields as text. Do not write comments, create extra approval flows, delete duplicate Issues or run Issue content.
-- [ ] Rerun tests and inspect the YAML to confirm the field IDs support prefilled candidate URLs and every required category exists in config.
-- [ ] Commit as `feat: manage watchlist through owner Issue forms`.
+- [x] Write tests `owner_only_open_issue`, `ignores_pr_and_external_author`, `updates_memo_and_handles_close_reopen`, `chooses_lowest_open_issue_for_duplicate_scope`, `retains_different_paths_in_one_repo`, `shows_bad_registration_without_stopping_good_ones`, `limits_100_without_silent_drop`, `keeps_shell_and_html_payload_inert`. Assert exact kind/category validation, size limits, and ignored external Issues never request target metadata.
+- [x] Run `node --test tests/registrations.test.mjs`; verify expected missing-function failures.
+- [x] Implement stable heading parsing and the input forms. Enforce name <=120, memo <=4000, URL <=2048 characters; larger or malformed answers become validation errors. Read fields as text. Do not write comments, create extra approval flows, delete duplicate Issues or run Issue content.
+- [x] Rerun tests and inspect the YAML to confirm the field IDs support prefilled candidate URLs and every required category exists in config.
+- [x] Commit as `feat: manage watchlist through owner Issue forms`.
 
 ## Task 4: Scope-aware releases and maintenance evidence
 
@@ -125,11 +125,11 @@ README.md                              # 등록·운영·수동 갱신·복구
 
 **Interfaces:** Produces `collectTool({registration,previous,client,now}):Promise<ToolRecord>` and `deriveToolSignals(tool,now):{recentRelease,attention,noRecentChange,stale}`. `metadata.value` includes canonical repository ID/name, description, stars, archived, defaultBranch, source URLs. `release.value` includes id/tag/publishedAt/url/scope='repository'. `activity.value` includes scopeType/path, lastCommitSha/date/url, pathExists, bins:[{start,count:number|null}], complete.
 
-- [ ] Write tests `filters_drafts_and_prereleases`, `no_release_requires_successful_list`, `path_commit_is_not_repo_commit`, `path_deletion_does_not_expand_scope`, `empty_repository_has_no_commit_without_error`, `archived_and_90_day_quiet_are_distinct`, `partial_history_keeps_unknown_bins_null`, `partial_field_failure_preserves_last_good_value`, `first_observation_is_not_an_update`. Assert 7-day release and 90-day inactivity boundaries with fixed timestamps.
-- [ ] Run `node --test tests/tools.test.mjs`; confirm failures before implementation.
-- [ ] Implement metadata, bounded stable-release lookup, path existence and bounded 84-day commit collection. Cache repo data for multiple scopes. If release ordering/pagination cannot establish latest, mark partial rather than guess. Distinguish empty repository 409 from nonexistent path. Derive counts from collected bins and label limited intervals honestly.
-- [ ] Rerun the suite and all prior tests. Check inactive does not imply archived and API failure is not zero activity.
-- [ ] Commit as `feat: collect release and scope maintenance evidence`.
+- [x] Write tests `filters_drafts_and_prereleases`, `no_release_requires_successful_list`, `path_commit_is_not_repo_commit`, `path_deletion_does_not_expand_scope`, `empty_repository_has_no_commit_without_error`, `archived_and_90_day_quiet_are_distinct`, `partial_history_keeps_unknown_bins_null`, `partial_field_failure_preserves_last_good_value`, `first_observation_is_not_an_update`. Assert 7-day release and 90-day inactivity boundaries with fixed timestamps.
+- [x] Run `node --test tests/tools.test.mjs`; confirm failures before implementation.
+- [x] Implement metadata, bounded stable-release lookup, path existence and bounded 84-day commit collection. Cache repo data for multiple scopes. If release ordering/pagination cannot establish latest, mark partial rather than guess. Distinguish empty repository 409 from nonexistent path. Derive counts from collected bins and label limited intervals honestly.
+- [x] Rerun the suite and all prior tests. Check inactive does not imply archived and API failure is not zero activity.
+- [x] Commit as `feat: collect release and scope maintenance evidence`.
 
 ## Task 5: Durable observations and retention
 
@@ -137,11 +137,11 @@ README.md                              # 등록·운영·수동 갱신·복구
 
 **Interfaces:** Produces `mergeObservations(previous,incoming,{now,days:90}):Observation[]`, `findWeeklyBaseline(observations,{repositoryId,now}):{baseline,current}|null`, `retainWeeks(weeks,{count:52}):WeeklyReport[]`. Daily observations are keyed by UTC date + repositoryId + scopePath; stars compare repository-level values only once.
 
-- [ ] Write tests `replaces_same_day_without_erasing_success`, `retains_90_days_and_52_weeks`, `missing_day_is_not_zero`, `baseline_uses_6_to_8_day_actual_interval`, `renamed_repo_uses_stable_id`, `changed_scope_starts_new_activity_baseline`, `failed_or_negative_star_observation_cannot_fabricate_growth`. Assert current 125/baseline 100 yields delta25 and records both actual dates; no valid baseline yields null.
-- [ ] Run `node --test tests/history.test.mjs`; verify missing implementation failures.
-- [ ] Implement deterministic observation merging, valid-field preservation, scope-aware activity baselines, repository-level stars history and retention with stable sort order. A legitimate reduction in stars remains a negative difference.
-- [ ] Rerun the suite; inspect tests on midnight UTC, KST presentation differences and exact cutoff boundaries.
-- [ ] Commit as `feat: persist bounded GitHub observation history`.
+- [x] Write tests `replaces_same_day_without_erasing_success`, `retains_90_days_and_52_weeks`, `missing_day_is_not_zero`, `baseline_uses_6_to_8_day_actual_interval`, `renamed_repo_uses_stable_id`, `changed_scope_starts_new_activity_baseline`, `failed_or_negative_star_observation_cannot_fabricate_growth`. Assert current 125/baseline 100 yields delta25 and records both actual dates; no valid baseline yields null.
+- [x] Run `node --test tests/history.test.mjs`; verify missing implementation failures.
+- [x] Implement deterministic observation merging, valid-field preservation, scope-aware activity baselines, repository-level stars history and retention with stable sort order. A legitimate reduction in stars remains a negative difference.
+- [x] Rerun the suite; inspect tests on midnight UTC, KST presentation differences and exact cutoff boundaries.
+- [x] Commit as `feat: persist bounded GitHub observation history`.
 
 ## Task 6: GitHub-only candidate pool and weekly discovery
 
@@ -149,11 +149,11 @@ README.md                              # 등록·운영·수동 갱신·복구
 
 **Interfaces:** Produces `refreshCandidatePool({previous,searchResults,trackedRepositoryIds,config,now,reportDue}):Candidate[]`, `buildWeeklyReport({candidates,observations,previousWeeks,now,coverage}):WeeklyReport`. It consumes Task 5 baselines; growth entries contain exact underlying observations. Search strings use topics `mcp-server`, `model-context-protocol`, `agent-skills`, and `claude-code plugin in:name,description`, with `archived:false fork:false` and bounded pages. No scraping.
 
-- [ ] Write tests `deduplicates_topic_search_by_repo_id`, `excludes_tracked_scopes_by_repository`, `initial_pool_has_only_newcomers`, `growth_requires_positive_valid_baseline`, `ranks_delta_then_activity_stars_name`, `keeps_week_baselines_before_pool_eviction`, `missing_search_result_does_not_erase_history`, `incomplete_search_marks_report_partial`, `pool_200_and_report_5_plus_5_limits`. Assert equal-delta ties are deterministic and a star loss never appears as rising.
-- [ ] Run `node --test tests/discovery.test.mjs`; observe expected failures.
-- [ ] Implement bounded search admission, daily polling of admitted candidates, bootstrap search when no pool exists, weekly refresh and post-publication eviction. Keep selected weekly baselines until report publication; mark unobserved/failed candidate fields. Preserve GitHub description as original text and call results related candidates, not verified installable tools or official Trending.
-- [ ] Rerun tests and all collector suites; verify no AI/translation/SNS endpoint exists.
-- [ ] Commit as `feat: publish evidence-based weekly GitHub discoveries`.
+- [x] Write tests `deduplicates_topic_search_by_repo_id`, `excludes_tracked_scopes_by_repository`, `initial_pool_has_only_newcomers`, `growth_requires_positive_valid_baseline`, `ranks_delta_then_activity_stars_name`, `keeps_week_baselines_before_pool_eviction`, `missing_search_result_does_not_erase_history`, `incomplete_search_marks_report_partial`, `pool_200_and_report_5_plus_5_limits`. Assert equal-delta ties are deterministic and a star loss never appears as rising.
+- [x] Run `node --test tests/discovery.test.mjs`; observe expected failures.
+- [x] Implement bounded search admission, daily polling of admitted candidates, bootstrap search when no pool exists, weekly refresh and post-publication eviction. Keep selected weekly baselines until report publication; mark unobserved/failed candidate fields. Preserve GitHub description as original text and call results related candidates, not verified installable tools or official Trending.
+- [x] Rerun tests and all collector suites; verify no AI/translation/SNS endpoint exists.
+- [x] Commit as `feat: publish evidence-based weekly GitHub discoveries`.
 
 ## Task 7: Collection orchestration and recoverable data writes
 
@@ -161,11 +161,11 @@ README.md                              # 등록·운영·수동 갱신·복구
 
 **Interfaces:** Produces `collectAll({config,previous,client,now,weekly,workflowUrl}):Promise<StoredData>`, `writeStoredData({directory,data}):Promise<void>`, CLI `node collector/run.mjs --mode daily|weekly|registration --data-dir data`. Serialization uses a validated staging directory and atomic per-file rename; failures never replace current JSON with truncated content. Code publishes a fully validated set only after all staging writes succeed.
 
-- [ ] Write tests `bootstrap_empty_list_still_discovers`, `full_issue_state_beats_event_order`, `one_bad_tool_does_not_block_others`, `whole_api_failure_preserves_data_and_dates`, `schema_failure_does_not_touch_old_files`, `no_history_or_snapshot_lost_on_write_error`, `bounded_requests_and_retries_terminate`, `new_week_does_not_rewrite_existing_report_without_new_success`. Inject filesystem failure and fixed clock.
-- [ ] Run `node --test tests/run.test.mjs`; verify intended failures.
-- [ ] Implement full-state Issue sync, collection, snapshot merge, pool refresh, weekly due calculation, run summary, and staged validation. Persist `lastAttemptAt` on each run, `lastSuccessfulAt` only on a meaningful successful collection, and pass publication time explicitly during build/deploy. Remove closed entries from current output without deleting unrelated historical observations.
-- [ ] Run all tests; run an offline end-to-end fixture that produces four valid data files, partial errors, and no watchlist seed data. Test fixture inputs stay out of dist.
-- [ ] Commit as `feat: orchestrate recoverable watchlist collection`.
+- [x] Write tests `bootstrap_empty_list_still_discovers`, `full_issue_state_beats_event_order`, `one_bad_tool_does_not_block_others`, `whole_api_failure_preserves_data_and_dates`, `schema_failure_does_not_touch_old_files`, `no_history_or_snapshot_lost_on_write_error`, `bounded_requests_and_retries_terminate`, `new_week_does_not_rewrite_existing_report_without_new_success`. Inject filesystem failure and fixed clock.
+- [x] Run `node --test tests/run.test.mjs`; verify intended failures.
+- [x] Implement full-state Issue sync, collection, snapshot merge, pool refresh, weekly due calculation, run summary, and staged validation. Persist `lastAttemptAt` on each run, `lastSuccessfulAt` only on a meaningful successful collection, and pass publication time explicitly during build/deploy. Remove closed entries from current output without deleting unrelated historical observations.
+- [x] Run all tests; run an offline end-to-end fixture that produces four valid data files, partial errors, and no watchlist seed data. Test fixture inputs stay out of dist.
+- [x] Commit as `feat: orchestrate recoverable watchlist collection`.
 
 ## Task 8: Working watchlist and detail UI
 
@@ -173,11 +173,11 @@ README.md                              # 등록·운영·수동 갱신·복구
 
 **Interfaces:** Produces `parseViewState(search):ViewState`, `serializeViewState(state):string`, `selectVisibleTools(data,state):{rows,total,hasMore,counts}`, `formatDateTime(iso):string`, `freshnessStatus({lastSuccess,now,weekly}):string`, `renderApp(root,{config,data,state,now}):void`. ViewState fields: `view`, `query`, `kind`, `category`, `sort`, `selectedId`, `limit` (increments20). `renderApp` creates nodes using textContent and allowlisted URL setters; source descriptions never enter innerHTML.
 
-- [ ] Write tests `filters_name_category_and_memo`, `stable_sort_and_more20`, `counts_are_derived`, `roundtrips_unicode_state`, `clamps_after_filter_change`, `formats_kst_and_missing_dates`, `stale_48h_and_weekly_9d`, `invalid_or_missing_selected_id_returns_list`. Assert first view on empty current data has no sample tool.
-- [ ] Run `node --test tests/state.test.mjs tests/format.test.mjs`; verify missing implementation failures.
-- [ ] Implement approved layout: named neutral navigation; table with separate release/maintenance columns; selected detail with exact tracking scope and source links; native accessible filter controls; clear search; URL state; 20-item more button. No new framework or CSS dependency. Maintain shared tokens in DESIGN.md and CSS. Use a locally available Korean sans-serif font stack; avoid mandatory third-party font requests.
-- [ ] Build and serve dist. Browser-check empty/no-results/partial-error/archived/no-release/path scope, search with Korean composition, filters, sort, more, detail/back, URL refresh, keyboard focus, long unbroken repo names, and literal `<script>`/shell payload text. On 1440/768/390 verify no document-wide horizontal overflow and list state/scroll are restored after mobile detail.
-- [ ] Commit as `feat: build responsive watchlist and evidence detail UI`.
+- [x] Write tests `filters_name_category_and_memo`, `stable_sort_and_more20`, `counts_are_derived`, `roundtrips_unicode_state`, `clamps_after_filter_change`, `formats_kst_and_missing_dates`, `stale_48h_and_weekly_9d`, `invalid_or_missing_selected_id_returns_list`. Assert first view on empty current data has no sample tool.
+- [x] Run `node --test tests/state.test.mjs tests/format.test.mjs`; verify missing implementation failures.
+- [x] Implement approved layout: named neutral navigation; table with separate release/maintenance columns; selected detail with exact tracking scope and source links; native accessible filter controls; clear search; URL state; 20-item more button. No new framework or CSS dependency. Maintain shared tokens in DESIGN.md and CSS. Use a locally available Korean sans-serif font stack; avoid mandatory third-party font requests.
+- [x] Build and serve dist. Browser-check empty/no-results/partial-error/archived/no-release/path scope, search with Korean composition, filters, sort, more, detail/back, URL refresh, keyboard focus, long unbroken repo names, and literal `<script>`/shell payload text. On 1440/768/390 verify no document-wide horizontal overflow and list state/scroll are restored after mobile detail.
+- [x] Commit as `feat: build responsive watchlist and evidence detail UI`.
 
 ## Task 9: Weekly discovery and GitHub registration links
 
@@ -185,11 +185,11 @@ README.md                              # 등록·운영·수동 갱신·복구
 
 **Interfaces:** Produces `issueFormUrl({config,targetUrl='',name='',kind='',category='',memo=''}):string`, `issueUrl(config,number):string`, `workflowUrl(config):string`, `safeGitHubUrl(input):string|null`. Uses template `track-tool.yml` and the exact Task 3 field IDs. Full issue URL is linked for edit/close/reopen; do not assume an unsupported direct edit URL.
 
-- [ ] Write tests `issue_form_encodes_repo_path_and_korean_memo`, `link_uses_config_owner_and_repo`, `rejects_javascript_and_other_hosts`, `candidate_prefill_does_not_claim_saved`, `field_size_never_creates_oversized_url`. Long optional memo is not embedded in the prefill URL; preserve target URL and show a plain instruction to enter remaining text on GitHub.
-- [ ] Run `node --test tests/links.test.mjs`; confirm intended failures.
-- [ ] Implement weekly report screen, growth/newcomer separation, actual observation periods and source descriptions. Add registration screen explaining GitHub submission and reflection delay, owner-only policy and publicly visible records. Wire all enabled source/README/Issue/Actions links to valid destinations; unavailable sources are labeled rather than fake buttons.
-- [ ] Browser-check candidate registration in a new tab without submitting it, external navigation safety, copy for empty first week/partial collection, keyboard flow, and mobile weekly/registration views. Return to the application without losing list state.
-- [ ] Commit as `feat: connect weekly discoveries and GitHub registration`.
+- [x] Write tests `issue_form_encodes_repo_path_and_korean_memo`, `link_uses_config_owner_and_repo`, `rejects_javascript_and_other_hosts`, `candidate_prefill_does_not_claim_saved`, `field_size_never_creates_oversized_url`. Long optional memo is not embedded in the prefill URL; preserve target URL and show a plain instruction to enter remaining text on GitHub.
+- [x] Run `node --test tests/links.test.mjs`; confirm intended failures.
+- [x] Implement weekly report screen, growth/newcomer separation, actual observation periods and source descriptions. Add registration screen explaining GitHub submission and reflection delay, owner-only policy and publicly visible records. Wire all enabled source/README/Issue/Actions links to valid destinations; unavailable sources are labeled rather than fake buttons.
+- [x] Browser-check candidate registration in a new tab without submitting it, external navigation safety, copy for empty first week/partial collection, keyboard flow, and mobile weekly/registration views. Return to the application without losing list state.
+- [x] Commit as `feat: connect weekly discoveries and GitHub registration`.
 
 ## Task 10: GitHub workflow and operating guide
 
@@ -197,12 +197,12 @@ README.md                              # 등록·운영·수동 갱신·복구
 
 **Interfaces:** update workflow runs on main push, authorized Issue lifecycle, `schedule`, `workflow_dispatch`. Inputs include mode and optional dry-run; scripts read GitHub event JSON through `GITHUB_EVENT_PATH`. Job outputs name collected revision/artifact identity explicitly. A single concurrency group covers all production updates, with `cancel-in-progress:false`.
 
-- [ ] Write tests `only_owner_registration_events_trigger_writes`, `collector_reads_payload_as_data`, `workflow_uses_single_writer_group`, `data_commit_and_deploy_are_in_same_run`, `failed_build_never_deploys`, `verify_uses_only_offline_fixtures`. Use structured workflow checks plus orchestration tests; don't implement tests that only snapshot whitespace.
-- [ ] Run `node --test tests/workflow.test.mjs`; verify failing assertions before workflow creation.
-- [ ] Implement standard Ubuntu workflows pinned to reviewed action revisions. Read/collect job gets contents/issues read; isolated data-persist job gets contents write and reruns against current main if its source revision changed; deploy job gets only pages write/id-token write and needs a successful validated artifact. Reuse collected public files between jobs; never upload tokens or event payloads. Explicitly deploy in the same run after bot data commit. PR verification never commits or deploys. Set short Pages-artifact retention and avoid long-lived caches. Record actual successful Pages deployment time after the deploy action succeeds for the next collected snapshot; do not label an artifact build time as a completed deployment. Display data freshness from collection timestamps and link the current deployment run.
-- [ ] Add README instructions for Issue registration/edit/close/reopen, source scope, manual run, first-week observations, 60-day scheduled-workflow suspension, stale-data recovery, API/Pages usage limits and account-specific local commands. Document one authorized operator and no auto-comment behavior.
-- [ ] Run all offline checks plus `npm run build` and `npm run check`; exercise a dry-run from fixture inputs and inspect job dependency/permission boundaries.
-- [ ] Commit as `ci: automate collection and GitHub Pages publishing`.
+- [x] Write tests `only_owner_registration_events_trigger_writes`, `collector_reads_payload_as_data`, `workflow_uses_single_writer_group`, `data_commit_and_deploy_are_in_same_run`, `failed_build_never_deploys`, `verify_uses_only_offline_fixtures`. Use structured workflow checks plus orchestration tests; don't implement tests that only snapshot whitespace.
+- [x] Run `node --test tests/workflow.test.mjs`; verify failing assertions before workflow creation.
+- [x] Implement standard Ubuntu workflows pinned to reviewed action revisions. Read/collect job gets contents/issues read; isolated data-persist job gets contents write and reruns against current main if its source revision changed; deploy job gets only pages write/id-token write and needs a successful validated artifact. Reuse collected public files between jobs; never upload tokens or event payloads. Explicitly deploy in the same run after bot data commit. PR verification never commits or deploys. Set short Pages-artifact retention and avoid long-lived caches. Record actual successful Pages deployment time after the deploy action succeeds for the next collected snapshot; do not label an artifact build time as a completed deployment. Display data freshness from collection timestamps and link the current deployment run.
+- [x] Add README instructions for Issue registration/edit/close/reopen, source scope, manual run, first-week observations, 60-day scheduled-workflow suspension, stale-data recovery, API/Pages usage limits and account-specific local commands. Document one authorized operator and no auto-comment behavior.
+- [x] Run all offline checks plus `npm run build` and `npm run check`; exercise a dry-run from fixture inputs and inspect job dependency/permission boundaries.
+- [x] Commit as `ci: automate collection and GitHub Pages publishing`.
 
 ## Task 11: Whole-application verification and review
 
