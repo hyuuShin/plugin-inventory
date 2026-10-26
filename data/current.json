@@ -6,7 +6,7 @@
       "issueNumber": 1,
       "issueUrl": "https://github.com/hyuuShin/plugin-inventory/issues/1",
       "name": "[검증용] Skill Creator",
-      "memo": "등록부터 배포까지 실제 연결을 확인하는 임시 메모입니다.",
+      "memo": "수정 반영 검증: 한국어 사용법 메모가 갱신되었습니다.",
       "kind": "Skill",
       "category": "개발",
       "sourceUrl": "https://github.com/anthropics/skills/tree/main/skills/skill-creator",
@@ -49,15 +49,15 @@
           "pushedAt": "2026-10-09T18:45:52Z"
         },
         "status": "ok",
-        "attemptedAt": "2026-10-26T23:05:17.417Z",
-        "succeededAt": "2026-10-26T23:05:17.417Z",
+        "attemptedAt": "2026-10-26T23:06:21.068Z",
+        "succeededAt": "2026-10-26T23:06:21.068Z",
         "errorCode": null
       },
       "release": {
         "value": null,
         "status": "missing",
-        "attemptedAt": "2026-10-26T23:05:17.417Z",
-        "succeededAt": "2026-10-26T23:05:17.417Z",
+        "attemptedAt": "2026-10-26T23:06:21.068Z",
+        "succeededAt": "2026-10-26T23:06:21.068Z",
         "errorCode": null
       },
       "activity": {
@@ -70,59 +70,59 @@
           "pathExists": true,
           "bins": [
             {
-              "start": "2026-08-03T23:05:17.417Z",
+              "start": "2026-08-03T23:06:21.068Z",
               "count": 0
             },
             {
-              "start": "2026-08-10T23:05:17.417Z",
+              "start": "2026-08-10T23:06:21.068Z",
               "count": 0
             },
             {
-              "start": "2026-08-17T23:05:17.417Z",
+              "start": "2026-08-17T23:06:21.068Z",
               "count": 0
             },
             {
-              "start": "2026-08-24T23:05:17.417Z",
+              "start": "2026-08-24T23:06:21.068Z",
               "count": 0
             },
             {
-              "start": "2026-08-31T23:05:17.417Z",
+              "start": "2026-08-31T23:06:21.068Z",
               "count": 0
             },
             {
-              "start": "2026-09-07T23:05:17.417Z",
+              "start": "2026-09-07T23:06:21.068Z",
               "count": 0
             },
             {
-              "start": "2026-09-14T23:05:17.417Z",
+              "start": "2026-09-14T23:06:21.068Z",
               "count": 0
             },
             {
-              "start": "2026-09-21T23:05:17.417Z",
+              "start": "2026-09-21T23:06:21.068Z",
               "count": 0
             },
             {
-              "start": "2026-09-28T23:05:17.417Z",
+              "start": "2026-09-28T23:06:21.068Z",
               "count": 0
             },
             {
-              "start": "2026-10-05T23:05:17.417Z",
+              "start": "2026-10-05T23:06:21.068Z",
               "count": 0
             },
             {
-              "start": "2026-10-12T23:05:17.417Z",
+              "start": "2026-10-12T23:06:21.068Z",
               "count": 0
             },
             {
-              "start": "2026-10-19T23:05:17.417Z",
+              "start": "2026-10-19T23:06:21.068Z",
               "count": 0
             }
           ],
           "complete": true
         },
         "status": "ok",
-        "attemptedAt": "2026-10-26T23:05:17.417Z",
-        "succeededAt": "2026-10-26T23:05:17.417Z",
+        "attemptedAt": "2026-10-26T23:06:21.068Z",
+        "succeededAt": "2026-10-26T23:06:21.068Z",
         "errorCode": null
       },
       "changes": {
@@ -281,11 +281,11 @@
     }
   },
   "run": {
-    "lastAttemptAt": "2026-10-26T23:05:17.417Z",
-    "lastSuccessfulAt": "2026-10-26T23:05:17.417Z",
+    "lastAttemptAt": "2026-10-26T23:06:21.068Z",
+    "lastSuccessfulAt": "2026-10-26T23:06:21.068Z",
     "lastPublishedAt": "2026-10-26T23:05:58.477Z",
     "status": "ok",
-    "workflowUrl": "https://github.com/hyuuShin/plugin-inventory/actions/runs/40417118849",
+    "workflowUrl": "https://github.com/hyuuShin/plugin-inventory/actions/runs/40417328343",
     "errors": []
   }
 }
