@@ -1,0 +1,40 @@
+name: 관심 도구 등록
+description: 추적하고 싶은 공개 GitHub 도구를 추가합니다.
+title: "[관심 도구] "
+labels: ["watchlist"]
+body:
+  - type: markdown
+    attributes:
+      value: "공개되는 관심 목록입니다. hyuuShin 계정으로 등록한 항목만 반영됩니다."
+  - type: input
+    id: github-url
+    attributes:
+      label: GitHub 주소
+      description: 저장소 또는 기본 브랜치 안의 파일·폴더 주소
+      placeholder: https://github.com/owner/repository
+    validations:
+      required: true
+  - type: input
+    id: display-name
+    attributes:
+      label: 표시 이름
+      description: 비워두면 저장소 이름을 사용합니다.
+  - type: dropdown
+    id: kind
+    attributes:
+      label: 유형
+      options: ["Skill", "MCP", "Plugin"]
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: 용도 분류
+      options: ["개발", "브라우저", "문서", "디자인", "데이터", "업무 자동화", "조사", "기타"]
+    validations:
+      required: true
+  - type: textarea
+    id: usage-memo
+    attributes:
+      label: 내 사용법 메모
+      description: 언제, 어떤 방식으로 사용하는지 4,000자 안으로 적어 주세요.
