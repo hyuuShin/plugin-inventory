@@ -49,15 +49,15 @@
           "pushedAt": "2026-10-09T18:45:52Z"
         },
         "status": "ok",
-        "attemptedAt": "2026-10-26T23:04:20.048Z",
-        "succeededAt": "2026-10-26T23:04:20.048Z",
+        "attemptedAt": "2026-10-26T23:05:17.417Z",
+        "succeededAt": "2026-10-26T23:05:17.417Z",
         "errorCode": null
       },
       "release": {
         "value": null,
         "status": "missing",
-        "attemptedAt": "2026-10-26T23:04:20.048Z",
-        "succeededAt": "2026-10-26T23:04:20.048Z",
+        "attemptedAt": "2026-10-26T23:05:17.417Z",
+        "succeededAt": "2026-10-26T23:05:17.417Z",
         "errorCode": null
       },
       "activity": {
@@ -70,65 +70,65 @@
           "pathExists": true,
           "bins": [
             {
-              "start": "2026-08-03T23:04:20.048Z",
+              "start": "2026-08-03T23:05:17.417Z",
               "count": 0
             },
             {
-              "start": "2026-08-10T23:04:20.048Z",
+              "start": "2026-08-10T23:05:17.417Z",
               "count": 0
             },
             {
-              "start": "2026-08-17T23:04:20.048Z",
+              "start": "2026-08-17T23:05:17.417Z",
               "count": 0
             },
             {
-              "start": "2026-08-24T23:04:20.048Z",
+              "start": "2026-08-24T23:05:17.417Z",
               "count": 0
             },
             {
-              "start": "2026-08-31T23:04:20.048Z",
+              "start": "2026-08-31T23:05:17.417Z",
               "count": 0
             },
             {
-              "start": "2026-09-07T23:04:20.048Z",
+              "start": "2026-09-07T23:05:17.417Z",
               "count": 0
             },
             {
-              "start": "2026-09-14T23:04:20.048Z",
+              "start": "2026-09-14T23:05:17.417Z",
               "count": 0
             },
             {
-              "start": "2026-09-21T23:04:20.048Z",
+              "start": "2026-09-21T23:05:17.417Z",
               "count": 0
             },
             {
-              "start": "2026-09-28T23:04:20.048Z",
+              "start": "2026-09-28T23:05:17.417Z",
               "count": 0
             },
             {
-              "start": "2026-10-05T23:04:20.048Z",
+              "start": "2026-10-05T23:05:17.417Z",
               "count": 0
             },
             {
-              "start": "2026-10-12T23:04:20.048Z",
+              "start": "2026-10-12T23:05:17.417Z",
               "count": 0
             },
             {
-              "start": "2026-10-19T23:04:20.048Z",
+              "start": "2026-10-19T23:05:17.417Z",
               "count": 0
             }
           ],
           "complete": true
         },
         "status": "ok",
-        "attemptedAt": "2026-10-26T23:04:20.048Z",
-        "succeededAt": "2026-10-26T23:04:20.048Z",
+        "attemptedAt": "2026-10-26T23:05:17.417Z",
+        "succeededAt": "2026-10-26T23:05:17.417Z",
         "errorCode": null
       },
       "changes": {
-        "baselineAvailable": false,
-        "releaseBaselineAvailable": false,
-        "commitBaselineAvailable": false,
+        "baselineAvailable": true,
+        "releaseBaselineAvailable": true,
+        "commitBaselineAvailable": true,
         "releaseChanged": false,
         "commitChanged": false
       }
@@ -281,11 +281,11 @@
     }
   },
   "run": {
-    "lastAttemptAt": "2026-10-26T23:04:20.048Z",
-    "lastSuccessfulAt": "2026-10-26T23:04:20.048Z",
+    "lastAttemptAt": "2026-10-26T23:05:17.417Z",
+    "lastSuccessfulAt": "2026-10-26T23:05:17.417Z",
     "lastPublishedAt": "2026-10-26T23:04:56.204Z",
     "status": "ok",
-    "workflowUrl": "https://github.com/hyuuShin/plugin-inventory/actions/runs/40417117779",
+    "workflowUrl": "https://github.com/hyuuShin/plugin-inventory/actions/runs/40417118849",
     "errors": []
   }
 }
