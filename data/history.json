@@ -2324,20 +2324,6 @@
     "starsObservedAt": "2026-10-26T23:03:08.326Z"
   },
   {
-    "repositoryId": 1061953414,
-    "scopePath": "",
-    "observedAt": "2026-10-26T23:03:08.326Z",
-    "stars": 183979,
-    "releaseId": null,
-    "commitSha": null,
-    "valid": {
-      "stars": true,
-      "release": false,
-      "activity": false
-    },
-    "starsObservedAt": "2026-10-26T23:03:08.326Z"
-  },
-  {
     "repositoryId": 1073224021,
     "scopePath": "",
     "observedAt": "2026-10-26T23:03:08.326Z",
@@ -3792,5 +3778,35 @@
       "activity": false
     },
     "starsObservedAt": "2026-10-26T23:03:08.326Z"
+  },
+  {
+    "repositoryId": 1061953414,
+    "scopePath": "",
+    "observedAt": "2026-10-26T23:04:20.048Z",
+    "stars": 183980,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": true,
+      "activity": false
+    },
+    "starsObservedAt": "2026-10-26T23:04:20.048Z",
+    "releaseObservedAt": "2026-10-26T23:04:20.048Z"
+  },
+  {
+    "repositoryId": 1061953414,
+    "observedAt": "2026-10-26T23:04:20.048Z",
+    "stars": 183980,
+    "releaseId": null,
+    "commitSha": "b9e19e6f44773509fbdd7001d77ff41a49a486c1",
+    "scopePath": "skills/skill-creator",
+    "valid": {
+      "stars": false,
+      "release": true,
+      "activity": true
+    },
+    "releaseObservedAt": "2026-10-26T23:04:20.048Z",
+    "activityObservedAt": "2026-10-26T23:04:20.048Z"
   }
 ]

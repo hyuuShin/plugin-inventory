@@ -1,7 +1,139 @@
 {
   "schemaVersion": 1,
-  "registrations": [],
-  "tools": [],
+  "registrations": [
+    {
+      "id": "1",
+      "issueNumber": 1,
+      "issueUrl": "https://github.com/hyuuShin/plugin-inventory/issues/1",
+      "name": "[검증용] Skill Creator",
+      "memo": "등록부터 배포까지 실제 연결을 확인하는 임시 메모입니다.",
+      "kind": "Skill",
+      "category": "개발",
+      "sourceUrl": "https://github.com/anthropics/skills/tree/main/skills/skill-creator",
+      "target": {
+        "repositoryId": 1061953414,
+        "owner": "anthropics",
+        "repo": "skills",
+        "defaultBranch": "main",
+        "scopeType": "directory",
+        "scopePath": "skills/skill-creator",
+        "url": "https://github.com/anthropics/skills/tree/main/skills/skill-creator"
+      },
+      "validation": {
+        "status": "valid",
+        "message": ""
+      }
+    }
+  ],
+  "tools": [
+    {
+      "id": "1",
+      "target": {
+        "repositoryId": 1061953414,
+        "owner": "anthropics",
+        "repo": "skills",
+        "defaultBranch": "main",
+        "scopeType": "directory",
+        "scopePath": "skills/skill-creator",
+        "url": "https://github.com/anthropics/skills/tree/main/skills/skill-creator"
+      },
+      "metadata": {
+        "value": {
+          "repositoryId": 1061953414,
+          "fullName": "anthropics/skills",
+          "description": "Public repository for Agent Skills",
+          "stars": 183980,
+          "archived": false,
+          "defaultBranch": "main",
+          "url": "https://github.com/anthropics/skills",
+          "pushedAt": "2026-10-09T18:45:52Z"
+        },
+        "status": "ok",
+        "attemptedAt": "2026-10-26T23:04:20.048Z",
+        "succeededAt": "2026-10-26T23:04:20.048Z",
+        "errorCode": null
+      },
+      "release": {
+        "value": null,
+        "status": "missing",
+        "attemptedAt": "2026-10-26T23:04:20.048Z",
+        "succeededAt": "2026-10-26T23:04:20.048Z",
+        "errorCode": null
+      },
+      "activity": {
+        "value": {
+          "scopeType": "directory",
+          "scopePath": "skills/skill-creator",
+          "lastCommitSha": "b9e19e6f44773509fbdd7001d77ff41a49a486c1",
+          "lastCommitDate": "2026-04-20T21:38:16Z",
+          "lastCommitUrl": "https://github.com/anthropics/skills/commit/b9e19e6f44773509fbdd7001d77ff41a49a486c1",
+          "pathExists": true,
+          "bins": [
+            {
+              "start": "2026-08-03T23:04:20.048Z",
+              "count": 0
+            },
+            {
+              "start": "2026-08-10T23:04:20.048Z",
+              "count": 0
+            },
+            {
+              "start": "2026-08-17T23:04:20.048Z",
+              "count": 0
+            },
+            {
+              "start": "2026-08-24T23:04:20.048Z",
+              "count": 0
+            },
+            {
+              "start": "2026-08-31T23:04:20.048Z",
+              "count": 0
+            },
+            {
+              "start": "2026-09-07T23:04:20.048Z",
+              "count": 0
+            },
+            {
+              "start": "2026-09-14T23:04:20.048Z",
+              "count": 0
+            },
+            {
+              "start": "2026-09-21T23:04:20.048Z",
+              "count": 0
+            },
+            {
+              "start": "2026-09-28T23:04:20.048Z",
+              "count": 0
+            },
+            {
+              "start": "2026-10-05T23:04:20.048Z",
+              "count": 0
+            },
+            {
+              "start": "2026-10-12T23:04:20.048Z",
+              "count": 0
+            },
+            {
+              "start": "2026-10-19T23:04:20.048Z",
+              "count": 0
+            }
+          ],
+          "complete": true
+        },
+        "status": "ok",
+        "attemptedAt": "2026-10-26T23:04:20.048Z",
+        "succeededAt": "2026-10-26T23:04:20.048Z",
+        "errorCode": null
+      },
+      "changes": {
+        "baselineAvailable": false,
+        "releaseBaselineAvailable": false,
+        "commitBaselineAvailable": false,
+        "releaseChanged": false,
+        "commitChanged": false
+      }
+    }
+  ],
   "weekly": {
     "weekId": "2026-10-26",
     "publishedAt": "2026-10-26T23:03:08.326Z",
@@ -149,11 +281,11 @@
     }
   },
   "run": {
-    "lastAttemptAt": "2026-10-26T23:03:08.326Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z",
+    "lastAttemptAt": "2026-10-26T23:04:20.048Z",
+    "lastSuccessfulAt": "2026-10-26T23:04:20.048Z",
     "lastPublishedAt": "2026-10-26T23:03:52.335Z",
     "status": "ok",
-    "workflowUrl": "https://github.com/hyuuShin/plugin-inventory/actions/runs/40416830446",
+    "workflowUrl": "https://github.com/hyuuShin/plugin-inventory/actions/runs/40417117779",
     "errors": []
   }
 }
