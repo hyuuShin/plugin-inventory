@@ -23,6 +23,29 @@
         "status": "valid",
         "message": ""
       }
+    },
+    {
+      "id": "3",
+      "issueNumber": 3,
+      "issueUrl": "https://github.com/hyuuShin/plugin-inventory/issues/3",
+      "name": "ECC (everything claude code)",
+      "memo": "plan -> test -> implement -> review -> verify -> remember -> improve\n단계를 거치면서 프로젝트를 빌드업 해주는",
+      "kind": "Plugin",
+      "category": "개발",
+      "sourceUrl": "https://github.com/affaan-m/ECC",
+      "target": {
+        "repositoryId": 1136590548,
+        "owner": "affaan-m",
+        "repo": "ECC",
+        "defaultBranch": "main",
+        "scopeType": "repository",
+        "scopePath": "",
+        "url": "https://github.com/affaan-m/ECC"
+      },
+      "validation": {
+        "status": "valid",
+        "message": ""
+      }
     }
   ],
   "tools": [
@@ -49,15 +72,15 @@
           "pushedAt": "2026-10-26T21:42:18Z"
         },
         "status": "ok",
-        "attemptedAt": "2026-10-27T00:28:13.912Z",
-        "succeededAt": "2026-10-27T00:28:13.912Z",
+        "attemptedAt": "2026-10-27T00:29:16.694Z",
+        "succeededAt": "2026-10-27T00:29:16.694Z",
         "errorCode": null
       },
       "release": {
         "value": null,
         "status": "missing",
-        "attemptedAt": "2026-10-27T00:28:13.912Z",
-        "succeededAt": "2026-10-27T00:28:13.912Z",
+        "attemptedAt": "2026-10-27T00:29:16.694Z",
+        "succeededAt": "2026-10-27T00:29:16.694Z",
         "errorCode": null
       },
       "activity": {
@@ -70,59 +93,172 @@
           "pathExists": true,
           "bins": [
             {
-              "start": "2026-08-04T00:28:13.912Z",
+              "start": "2026-08-04T00:29:16.694Z",
               "count": 1
             },
             {
-              "start": "2026-08-11T00:28:13.912Z",
+              "start": "2026-08-11T00:29:16.694Z",
               "count": 80
             },
             {
-              "start": "2026-08-18T00:28:13.912Z",
+              "start": "2026-08-18T00:29:16.694Z",
               "count": 26
             },
             {
-              "start": "2026-08-25T00:28:13.912Z",
+              "start": "2026-08-25T00:29:16.694Z",
               "count": 3
             },
             {
-              "start": "2026-09-01T00:28:13.912Z",
+              "start": "2026-09-01T00:29:16.694Z",
               "count": 14
             },
             {
-              "start": "2026-09-08T00:28:13.912Z",
+              "start": "2026-09-08T00:29:16.694Z",
               "count": 13
             },
             {
-              "start": "2026-09-15T00:28:13.912Z",
+              "start": "2026-09-15T00:29:16.694Z",
               "count": 22
             },
             {
-              "start": "2026-09-22T00:28:13.912Z",
+              "start": "2026-09-22T00:29:16.694Z",
               "count": 24
             },
             {
-              "start": "2026-09-29T00:28:13.912Z",
+              "start": "2026-09-29T00:29:16.694Z",
               "count": 30
             },
             {
-              "start": "2026-10-06T00:28:13.912Z",
+              "start": "2026-10-06T00:29:16.694Z",
               "count": 74
             },
             {
-              "start": "2026-10-13T00:28:13.912Z",
+              "start": "2026-10-13T00:29:16.694Z",
               "count": 58
             },
             {
-              "start": "2026-10-20T00:28:13.912Z",
+              "start": "2026-10-20T00:29:16.694Z",
               "count": 32
             }
           ],
           "complete": true
         },
         "status": "ok",
-        "attemptedAt": "2026-10-27T00:28:13.912Z",
-        "succeededAt": "2026-10-27T00:28:13.912Z",
+        "attemptedAt": "2026-10-27T00:29:16.694Z",
+        "succeededAt": "2026-10-27T00:29:16.694Z",
+        "errorCode": null
+      },
+      "changes": {
+        "baselineAvailable": true,
+        "releaseBaselineAvailable": true,
+        "commitBaselineAvailable": true,
+        "releaseChanged": false,
+        "commitChanged": false
+      }
+    },
+    {
+      "id": "3",
+      "target": {
+        "repositoryId": 1136590548,
+        "owner": "affaan-m",
+        "repo": "ECC",
+        "defaultBranch": "main",
+        "scopeType": "repository",
+        "scopePath": "",
+        "url": "https://github.com/affaan-m/ECC"
+      },
+      "metadata": {
+        "value": {
+          "repositoryId": 1136590548,
+          "fullName": "affaan-m/ECC",
+          "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+          "stars": 289834,
+          "archived": false,
+          "defaultBranch": "main",
+          "url": "https://github.com/affaan-m/ECC",
+          "pushedAt": "2026-10-26T04:56:56Z"
+        },
+        "status": "ok",
+        "attemptedAt": "2026-10-27T00:29:16.694Z",
+        "succeededAt": "2026-10-27T00:29:16.694Z",
+        "errorCode": null
+      },
+      "release": {
+        "value": {
+          "id": 401417947,
+          "tag": "v2.2.3",
+          "publishedAt": "2026-10-01T23:00:36Z",
+          "url": "https://github.com/affaan-m/ECC/releases/tag/v2.2.3",
+          "scope": "repository"
+        },
+        "status": "ok",
+        "attemptedAt": "2026-10-27T00:29:16.694Z",
+        "succeededAt": "2026-10-27T00:29:16.694Z",
+        "errorCode": null
+      },
+      "activity": {
+        "value": {
+          "scopeType": "repository",
+          "scopePath": "",
+          "lastCommitSha": "25278e7d7b6cf6e6a4e7a6c8e10f14ff22f0eb5b",
+          "lastCommitDate": "2026-10-26T04:03:57Z",
+          "lastCommitUrl": "https://github.com/affaan-m/ECC/commit/25278e7d7b6cf6e6a4e7a6c8e10f14ff22f0eb5b",
+          "pathExists": true,
+          "bins": [
+            {
+              "start": "2026-08-04T00:29:16.694Z",
+              "count": null
+            },
+            {
+              "start": "2026-08-11T00:29:16.694Z",
+              "count": null
+            },
+            {
+              "start": "2026-08-18T00:29:16.694Z",
+              "count": null
+            },
+            {
+              "start": "2026-08-25T00:29:16.694Z",
+              "count": null
+            },
+            {
+              "start": "2026-09-01T00:29:16.694Z",
+              "count": null
+            },
+            {
+              "start": "2026-09-08T00:29:16.694Z",
+              "count": null
+            },
+            {
+              "start": "2026-09-15T00:29:16.694Z",
+              "count": null
+            },
+            {
+              "start": "2026-09-22T00:29:16.694Z",
+              "count": null
+            },
+            {
+              "start": "2026-09-29T00:29:16.694Z",
+              "count": null
+            },
+            {
+              "start": "2026-10-06T00:29:16.694Z",
+              "count": null
+            },
+            {
+              "start": "2026-10-13T00:29:16.694Z",
+              "count": 10
+            },
+            {
+              "start": "2026-10-20T00:29:16.694Z",
+              "count": 118
+            }
+          ],
+          "complete": false
+        },
+        "status": "partial",
+        "attemptedAt": "2026-10-27T00:29:16.694Z",
+        "succeededAt": "2026-10-27T00:29:16.694Z",
         "errorCode": null
       },
       "changes": {
@@ -281,11 +417,13 @@
     }
   },
   "run": {
-    "lastAttemptAt": "2026-10-27T00:28:13.912Z",
-    "lastSuccessfulAt": "2026-10-27T00:28:13.912Z",
+    "lastAttemptAt": "2026-10-27T00:29:16.694Z",
+    "lastSuccessfulAt": "2026-10-27T00:29:16.694Z",
     "lastPublishedAt": "2026-10-27T00:28:56.781Z",
-    "status": "ok",
-    "workflowUrl": "https://github.com/hyuuShin/plugin-inventory/actions/runs/40426563734",
-    "errors": []
+    "status": "partial",
+    "workflowUrl": "https://github.com/hyuuShin/plugin-inventory/actions/runs/40426670950",
+    "errors": [
+      "tool_3_activity_partial"
+    ]
   }
 }
