@@ -46,6 +46,29 @@
         "status": "valid",
         "message": ""
       }
+    },
+    {
+      "id": "4",
+      "issueNumber": 4,
+      "issueUrl": "https://github.com/hyuuShin/plugin-inventory/issues/4",
+      "name": "",
+      "memo": "랜딩페이지, 웹페이지등의 디자인을 돕는 스킬",
+      "kind": "Skill",
+      "category": "개발",
+      "sourceUrl": "https://github.com/leonxlnx/taste-skill",
+      "target": {
+        "repositoryId": 1162099055,
+        "owner": "Leonxlnx",
+        "repo": "taste-skill",
+        "defaultBranch": "main",
+        "scopeType": "repository",
+        "scopePath": "",
+        "url": "https://github.com/Leonxlnx/taste-skill"
+      },
+      "validation": {
+        "status": "valid",
+        "message": ""
+      }
     }
   ],
   "tools": [
@@ -72,15 +95,15 @@
           "pushedAt": "2026-10-26T21:42:18Z"
         },
         "status": "ok",
-        "attemptedAt": "2026-10-27T00:29:16.694Z",
-        "succeededAt": "2026-10-27T00:29:16.694Z",
+        "attemptedAt": "2026-10-27T00:30:13.380Z",
+        "succeededAt": "2026-10-27T00:30:13.380Z",
         "errorCode": null
       },
       "release": {
         "value": null,
         "status": "missing",
-        "attemptedAt": "2026-10-27T00:29:16.694Z",
-        "succeededAt": "2026-10-27T00:29:16.694Z",
+        "attemptedAt": "2026-10-27T00:30:13.380Z",
+        "succeededAt": "2026-10-27T00:30:13.380Z",
         "errorCode": null
       },
       "activity": {
@@ -93,59 +116,59 @@
           "pathExists": true,
           "bins": [
             {
-              "start": "2026-08-04T00:29:16.694Z",
+              "start": "2026-08-04T00:30:13.380Z",
               "count": 1
             },
             {
-              "start": "2026-08-11T00:29:16.694Z",
+              "start": "2026-08-11T00:30:13.380Z",
               "count": 80
             },
             {
-              "start": "2026-08-18T00:29:16.694Z",
+              "start": "2026-08-18T00:30:13.380Z",
               "count": 26
             },
             {
-              "start": "2026-08-25T00:29:16.694Z",
+              "start": "2026-08-25T00:30:13.380Z",
               "count": 3
             },
             {
-              "start": "2026-09-01T00:29:16.694Z",
+              "start": "2026-09-01T00:30:13.380Z",
               "count": 14
             },
             {
-              "start": "2026-09-08T00:29:16.694Z",
+              "start": "2026-09-08T00:30:13.380Z",
               "count": 13
             },
             {
-              "start": "2026-09-15T00:29:16.694Z",
+              "start": "2026-09-15T00:30:13.380Z",
               "count": 22
             },
             {
-              "start": "2026-09-22T00:29:16.694Z",
+              "start": "2026-09-22T00:30:13.380Z",
               "count": 24
             },
             {
-              "start": "2026-09-29T00:29:16.694Z",
+              "start": "2026-09-29T00:30:13.380Z",
               "count": 30
             },
             {
-              "start": "2026-10-06T00:29:16.694Z",
+              "start": "2026-10-06T00:30:13.380Z",
               "count": 74
             },
             {
-              "start": "2026-10-13T00:29:16.694Z",
+              "start": "2026-10-13T00:30:13.380Z",
               "count": 58
             },
             {
-              "start": "2026-10-20T00:29:16.694Z",
+              "start": "2026-10-20T00:30:13.380Z",
               "count": 32
             }
           ],
           "complete": true
         },
         "status": "ok",
-        "attemptedAt": "2026-10-27T00:29:16.694Z",
-        "succeededAt": "2026-10-27T00:29:16.694Z",
+        "attemptedAt": "2026-10-27T00:30:13.380Z",
+        "succeededAt": "2026-10-27T00:30:13.380Z",
         "errorCode": null
       },
       "changes": {
@@ -179,8 +202,8 @@
           "pushedAt": "2026-10-26T04:56:56Z"
         },
         "status": "ok",
-        "attemptedAt": "2026-10-27T00:29:16.694Z",
-        "succeededAt": "2026-10-27T00:29:16.694Z",
+        "attemptedAt": "2026-10-27T00:30:13.380Z",
+        "succeededAt": "2026-10-27T00:30:13.380Z",
         "errorCode": null
       },
       "release": {
@@ -192,8 +215,8 @@
           "scope": "repository"
         },
         "status": "ok",
-        "attemptedAt": "2026-10-27T00:29:16.694Z",
-        "succeededAt": "2026-10-27T00:29:16.694Z",
+        "attemptedAt": "2026-10-27T00:30:13.380Z",
+        "succeededAt": "2026-10-27T00:30:13.380Z",
         "errorCode": null
       },
       "activity": {
@@ -206,59 +229,172 @@
           "pathExists": true,
           "bins": [
             {
-              "start": "2026-08-04T00:29:16.694Z",
+              "start": "2026-08-04T00:30:13.380Z",
               "count": null
             },
             {
-              "start": "2026-08-11T00:29:16.694Z",
+              "start": "2026-08-11T00:30:13.380Z",
               "count": null
             },
             {
-              "start": "2026-08-18T00:29:16.694Z",
+              "start": "2026-08-18T00:30:13.380Z",
               "count": null
             },
             {
-              "start": "2026-08-25T00:29:16.694Z",
+              "start": "2026-08-25T00:30:13.380Z",
               "count": null
             },
             {
-              "start": "2026-09-01T00:29:16.694Z",
+              "start": "2026-09-01T00:30:13.380Z",
               "count": null
             },
             {
-              "start": "2026-09-08T00:29:16.694Z",
+              "start": "2026-09-08T00:30:13.380Z",
               "count": null
             },
             {
-              "start": "2026-09-15T00:29:16.694Z",
+              "start": "2026-09-15T00:30:13.380Z",
               "count": null
             },
             {
-              "start": "2026-09-22T00:29:16.694Z",
+              "start": "2026-09-22T00:30:13.380Z",
               "count": null
             },
             {
-              "start": "2026-09-29T00:29:16.694Z",
+              "start": "2026-09-29T00:30:13.380Z",
               "count": null
             },
             {
-              "start": "2026-10-06T00:29:16.694Z",
+              "start": "2026-10-06T00:30:13.380Z",
               "count": null
             },
             {
-              "start": "2026-10-13T00:29:16.694Z",
+              "start": "2026-10-13T00:30:13.380Z",
               "count": 10
             },
             {
-              "start": "2026-10-20T00:29:16.694Z",
+              "start": "2026-10-20T00:30:13.380Z",
               "count": 118
             }
           ],
           "complete": false
         },
         "status": "partial",
-        "attemptedAt": "2026-10-27T00:29:16.694Z",
-        "succeededAt": "2026-10-27T00:29:16.694Z",
+        "attemptedAt": "2026-10-27T00:30:13.380Z",
+        "succeededAt": "2026-10-27T00:30:13.380Z",
+        "errorCode": null
+      },
+      "changes": {
+        "baselineAvailable": true,
+        "releaseBaselineAvailable": true,
+        "commitBaselineAvailable": true,
+        "releaseChanged": false,
+        "commitChanged": false
+      }
+    },
+    {
+      "id": "4",
+      "target": {
+        "repositoryId": 1162099055,
+        "owner": "Leonxlnx",
+        "repo": "taste-skill",
+        "defaultBranch": "main",
+        "scopeType": "repository",
+        "scopePath": "",
+        "url": "https://github.com/Leonxlnx/taste-skill"
+      },
+      "metadata": {
+        "value": {
+          "repositoryId": 1162099055,
+          "fullName": "Leonxlnx/taste-skill",
+          "description": "Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages",
+          "stars": 102988,
+          "archived": false,
+          "defaultBranch": "main",
+          "url": "https://github.com/Leonxlnx/taste-skill",
+          "pushedAt": "2026-10-26T12:28:18Z"
+        },
+        "status": "ok",
+        "attemptedAt": "2026-10-27T00:30:13.380Z",
+        "succeededAt": "2026-10-27T00:30:13.380Z",
+        "errorCode": null
+      },
+      "release": {
+        "value": {
+          "id": 423046682,
+          "tag": "v2.1.5",
+          "publishedAt": "2026-10-24T23:44:17Z",
+          "url": "https://github.com/Leonxlnx/taste-skill/releases/tag/v2.1.5",
+          "scope": "repository"
+        },
+        "status": "ok",
+        "attemptedAt": "2026-10-27T00:30:13.380Z",
+        "succeededAt": "2026-10-27T00:30:13.380Z",
+        "errorCode": null
+      },
+      "activity": {
+        "value": {
+          "scopeType": "repository",
+          "scopePath": "",
+          "lastCommitSha": "12af471f627f866411b4bd785b19646d3672784c",
+          "lastCommitDate": "2026-10-24T23:42:19Z",
+          "lastCommitUrl": "https://github.com/Leonxlnx/taste-skill/commit/12af471f627f866411b4bd785b19646d3672784c",
+          "pathExists": true,
+          "bins": [
+            {
+              "start": "2026-08-04T00:30:13.380Z",
+              "count": 0
+            },
+            {
+              "start": "2026-08-11T00:30:13.380Z",
+              "count": 3
+            },
+            {
+              "start": "2026-08-18T00:30:13.380Z",
+              "count": 7
+            },
+            {
+              "start": "2026-08-25T00:30:13.380Z",
+              "count": 0
+            },
+            {
+              "start": "2026-09-01T00:30:13.380Z",
+              "count": 0
+            },
+            {
+              "start": "2026-09-08T00:30:13.380Z",
+              "count": 2
+            },
+            {
+              "start": "2026-09-15T00:30:13.380Z",
+              "count": 7
+            },
+            {
+              "start": "2026-09-22T00:30:13.380Z",
+              "count": 8
+            },
+            {
+              "start": "2026-09-29T00:30:13.380Z",
+              "count": 0
+            },
+            {
+              "start": "2026-10-06T00:30:13.380Z",
+              "count": 30
+            },
+            {
+              "start": "2026-10-13T00:30:13.380Z",
+              "count": 33
+            },
+            {
+              "start": "2026-10-20T00:30:13.380Z",
+              "count": 13
+            }
+          ],
+          "complete": true
+        },
+        "status": "ok",
+        "attemptedAt": "2026-10-27T00:30:13.380Z",
+        "succeededAt": "2026-10-27T00:30:13.380Z",
         "errorCode": null
       },
       "changes": {
@@ -417,11 +553,11 @@
     }
   },
   "run": {
-    "lastAttemptAt": "2026-10-27T00:29:16.694Z",
-    "lastSuccessfulAt": "2026-10-27T00:29:16.694Z",
+    "lastAttemptAt": "2026-10-27T00:30:13.380Z",
+    "lastSuccessfulAt": "2026-10-27T00:30:13.380Z",
     "lastPublishedAt": "2026-10-27T00:29:56.785Z",
     "status": "partial",
-    "workflowUrl": "https://github.com/hyuuShin/plugin-inventory/actions/runs/40426670950",
+    "workflowUrl": "https://github.com/hyuuShin/plugin-inventory/actions/runs/40426777311",
     "errors": [
       "tool_3_activity_partial"
     ]
