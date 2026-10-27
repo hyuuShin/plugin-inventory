@@ -1,7 +1,139 @@
 {
   "schemaVersion": 1,
-  "registrations": [],
-  "tools": [],
+  "registrations": [
+    {
+      "id": "2",
+      "issueNumber": 2,
+      "issueUrl": "https://github.com/hyuuShin/plugin-inventory/issues/2",
+      "name": "",
+      "memo": "비지니스, 개발, 마케팅등 다양한 곳에서 활용할 수 있는 다이어그램을 그려주는 plugin",
+      "kind": "Plugin",
+      "category": "디자인",
+      "sourceUrl": "https://github.com/cathrynlavery/diagram-design",
+      "target": {
+        "repositoryId": 1212769188,
+        "owner": "cathrynlavery",
+        "repo": "diagram-design",
+        "defaultBranch": "main",
+        "scopeType": "repository",
+        "scopePath": "",
+        "url": "https://github.com/cathrynlavery/diagram-design"
+      },
+      "validation": {
+        "status": "valid",
+        "message": ""
+      }
+    }
+  ],
+  "tools": [
+    {
+      "id": "2",
+      "target": {
+        "repositoryId": 1212769188,
+        "owner": "cathrynlavery",
+        "repo": "diagram-design",
+        "defaultBranch": "main",
+        "scopeType": "repository",
+        "scopePath": "",
+        "url": "https://github.com/cathrynlavery/diagram-design"
+      },
+      "metadata": {
+        "value": {
+          "repositoryId": 1212769188,
+          "fullName": "cathrynlavery/diagram-design",
+          "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 45 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+          "stars": 61377,
+          "archived": false,
+          "defaultBranch": "main",
+          "url": "https://github.com/cathrynlavery/diagram-design",
+          "pushedAt": "2026-10-26T21:42:18Z"
+        },
+        "status": "ok",
+        "attemptedAt": "2026-10-27T00:28:13.912Z",
+        "succeededAt": "2026-10-27T00:28:13.912Z",
+        "errorCode": null
+      },
+      "release": {
+        "value": null,
+        "status": "missing",
+        "attemptedAt": "2026-10-27T00:28:13.912Z",
+        "succeededAt": "2026-10-27T00:28:13.912Z",
+        "errorCode": null
+      },
+      "activity": {
+        "value": {
+          "scopeType": "repository",
+          "scopePath": "",
+          "lastCommitSha": "97d795138448f6a739a0cebc3d9beb37a42077f1",
+          "lastCommitDate": "2026-10-26T21:42:17Z",
+          "lastCommitUrl": "https://github.com/cathrynlavery/diagram-design/commit/97d795138448f6a739a0cebc3d9beb37a42077f1",
+          "pathExists": true,
+          "bins": [
+            {
+              "start": "2026-08-04T00:28:13.912Z",
+              "count": 1
+            },
+            {
+              "start": "2026-08-11T00:28:13.912Z",
+              "count": 80
+            },
+            {
+              "start": "2026-08-18T00:28:13.912Z",
+              "count": 26
+            },
+            {
+              "start": "2026-08-25T00:28:13.912Z",
+              "count": 3
+            },
+            {
+              "start": "2026-09-01T00:28:13.912Z",
+              "count": 14
+            },
+            {
+              "start": "2026-09-08T00:28:13.912Z",
+              "count": 13
+            },
+            {
+              "start": "2026-09-15T00:28:13.912Z",
+              "count": 22
+            },
+            {
+              "start": "2026-09-22T00:28:13.912Z",
+              "count": 24
+            },
+            {
+              "start": "2026-09-29T00:28:13.912Z",
+              "count": 30
+            },
+            {
+              "start": "2026-10-06T00:28:13.912Z",
+              "count": 74
+            },
+            {
+              "start": "2026-10-13T00:28:13.912Z",
+              "count": 58
+            },
+            {
+              "start": "2026-10-20T00:28:13.912Z",
+              "count": 32
+            }
+          ],
+          "complete": true
+        },
+        "status": "ok",
+        "attemptedAt": "2026-10-27T00:28:13.912Z",
+        "succeededAt": "2026-10-27T00:28:13.912Z",
+        "errorCode": null
+      },
+      "changes": {
+        "baselineAvailable": false,
+        "releaseBaselineAvailable": false,
+        "commitBaselineAvailable": false,
+        "releaseChanged": false,
+        "commitChanged": false
+      }
+    }
+  ],
   "weekly": {
     "weekId": "2026-10-26",
     "publishedAt": "2026-10-26T23:03:08.326Z",
@@ -149,11 +281,11 @@
     }
   },
   "run": {
-    "lastAttemptAt": "2026-10-26T23:11:54.178Z",
-    "lastSuccessfulAt": "2026-10-26T23:11:54.178Z",
+    "lastAttemptAt": "2026-10-27T00:28:13.912Z",
+    "lastSuccessfulAt": "2026-10-27T00:28:13.912Z",
     "lastPublishedAt": "2026-10-26T23:12:41.089Z",
     "status": "ok",
-    "workflowUrl": "https://github.com/hyuuShin/plugin-inventory/actions/runs/40418043872",
+    "workflowUrl": "https://github.com/hyuuShin/plugin-inventory/actions/runs/40426563734",
     "errors": []
   }
 }

@@ -3808,5 +3808,21 @@
     },
     "releaseObservedAt": "2026-10-26T23:10:57.507Z",
     "activityObservedAt": "2026-10-26T23:10:57.507Z"
+  },
+  {
+    "repositoryId": 1212769188,
+    "observedAt": "2026-10-27T00:28:13.912Z",
+    "stars": 61377,
+    "releaseId": null,
+    "commitSha": "97d795138448f6a739a0cebc3d9beb37a42077f1",
+    "scopePath": "",
+    "valid": {
+      "stars": true,
+      "release": true,
+      "activity": true
+    },
+    "starsObservedAt": "2026-10-27T00:28:13.912Z",
+    "releaseObservedAt": "2026-10-27T00:28:13.912Z",
+    "activityObservedAt": "2026-10-27T00:28:13.912Z"
   }
 ]

@@ -726,28 +726,6 @@
     "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
   },
   {
-    "repositoryId": 1212769188,
-    "fullName": "cathrynlavery/diagram-design",
-    "url": "https://github.com/cathrynlavery/diagram-design",
-    "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 45 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
-    "topics": [
-      "agent-skills",
-      "claude-code",
-      "codex",
-      "data-visualization",
-      "diagrams",
-      "drawio",
-      "mermaid",
-      "svg"
-    ],
-    "stars": 61368,
-    "pushedAt": "2026-10-26T21:42:18Z",
-    "archived": false,
-    "fork": false,
-    "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
-  },
-  {
     "repositoryId": 813564769,
     "fullName": "clidey/whodb",
     "url": "https://github.com/clidey/whodb",
