@@ -25,12 +25,12 @@
       "trilingual",
       "tutorial"
     ],
-    "stars": 8010,
-    "pushedAt": "2026-10-26T23:02:55Z",
+    "stars": 8017,
+    "pushedAt": "2026-10-27T01:46:02Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 1100776768,
@@ -42,12 +42,12 @@
       "mcp",
       "skills"
     ],
-    "stars": 44734,
-    "pushedAt": "2026-10-26T23:02:52Z",
+    "stars": 44787,
+    "pushedAt": "2026-10-27T00:23:47Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 984341155,
@@ -75,12 +75,12 @@
       "ryzen",
       "vulkan"
     ],
-    "stars": 6002,
-    "pushedAt": "2026-10-26T23:02:40Z",
+    "stars": 6004,
+    "pushedAt": "2026-10-27T03:56:13Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 1170821064,
@@ -109,12 +109,12 @@
       "project-management",
       "workflow-automation"
     ],
-    "stars": 107647,
-    "pushedAt": "2026-10-26T23:02:22Z",
+    "stars": 107737,
+    "pushedAt": "2026-10-27T05:06:04Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 953683578,
@@ -135,12 +135,12 @@
       "programming",
       "vibe-coding"
     ],
-    "stars": 30737,
+    "stars": 30743,
     "pushedAt": "2026-10-26T23:02:19Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 951115072,
@@ -169,12 +169,12 @@
       "openai-compatible",
       "semantic-cache"
     ],
-    "stars": 9124,
-    "pushedAt": "2026-10-26T23:01:30Z",
+    "stars": 9128,
+    "pushedAt": "2026-10-27T05:09:22Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 1164477708,
@@ -203,12 +203,12 @@
       "skills",
       "zed-extension"
     ],
-    "stars": 32427,
-    "pushedAt": "2026-10-26T23:01:17Z",
+    "stars": 32461,
+    "pushedAt": "2026-10-27T03:56:31Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 193215554,
@@ -237,12 +237,12 @@
       "workflow",
       "workflow-automation"
     ],
-    "stars": 208668,
-    "pushedAt": "2026-10-26T22:59:23Z",
+    "stars": 208702,
+    "pushedAt": "2026-10-27T00:36:49Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 19537979,
@@ -276,7 +276,7 @@
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 1198124295,
@@ -296,12 +296,12 @@
       "tmux",
       "typescript"
     ],
-    "stars": 8218,
-    "pushedAt": "2026-10-26T22:58:11Z",
+    "stars": 8232,
+    "pushedAt": "2026-10-27T05:10:18Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 1209966933,
@@ -330,12 +330,12 @@
       "static-analysis",
       "touhou"
     ],
-    "stars": 391366,
-    "pushedAt": "2026-10-26T22:57:54Z",
+    "stars": 392803,
+    "pushedAt": "2026-10-27T05:13:13Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 249995750,
@@ -354,12 +354,12 @@
       "self-hosted",
       "typescript"
     ],
-    "stars": 44903,
-    "pushedAt": "2026-10-26T22:56:35Z",
+    "stars": 44913,
+    "pushedAt": "2026-10-27T01:47:12Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 911256711,
@@ -372,12 +372,12 @@
       "mcp",
       "mcp-server"
     ],
-    "stars": 13331,
-    "pushedAt": "2026-10-26T22:56:32Z",
+    "stars": 13354,
+    "pushedAt": "2026-10-27T04:56:00Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 1149257427,
@@ -387,12 +387,12 @@
     "topics": [
       "agent-skills"
     ],
-    "stars": 5734,
-    "pushedAt": "2026-10-26T22:55:57Z",
+    "stars": 5736,
+    "pushedAt": "2026-10-27T03:56:36Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 1028492186,
@@ -410,12 +410,12 @@
       "desktop-agent",
       "multi-agent-systems"
     ],
-    "stars": 15666,
-    "pushedAt": "2026-10-26T22:55:10Z",
+    "stars": 15668,
+    "pushedAt": "2026-10-26T23:42:06Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 1003043071,
@@ -444,12 +444,12 @@
       "semantic-search",
       "tree-sitter"
     ],
-    "stars": 5287,
-    "pushedAt": "2026-10-26T22:55:01Z",
+    "stars": 5286,
+    "pushedAt": "2026-10-27T00:37:25Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 1077819522,
@@ -476,12 +476,12 @@
       "threejs",
       "typescript"
     ],
-    "stars": 25132,
-    "pushedAt": "2026-10-26T22:53:38Z",
+    "stars": 25137,
+    "pushedAt": "2026-10-27T05:04:51Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 899407931,
@@ -505,12 +505,12 @@
       "web-crawler",
       "web-scraping"
     ],
-    "stars": 7693,
-    "pushedAt": "2026-10-26T22:53:38Z",
+    "stars": 7697,
+    "pushedAt": "2026-10-27T04:30:35Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 573661753,
@@ -532,12 +532,12 @@
       "workflow-automation",
       "workflows"
     ],
-    "stars": 25237,
-    "pushedAt": "2026-10-26T22:53:28Z",
+    "stars": 25239,
+    "pushedAt": "2026-10-27T05:05:42Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 1258203278,
@@ -566,12 +566,12 @@
       "second-brain",
       "skills"
     ],
-    "stars": 4703,
-    "pushedAt": "2026-10-26T22:52:49Z",
+    "stars": 4707,
+    "pushedAt": "2026-10-27T04:02:05Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 896296825,
@@ -589,12 +589,12 @@
       "model-context-protocol",
       "python"
     ],
-    "stars": 28212,
-    "pushedAt": "2026-10-26T22:44:51Z",
+    "stars": 28215,
+    "pushedAt": "2026-10-27T04:49:43Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 930217913,
@@ -609,11 +609,11 @@
       "mcp-server"
     ],
     "stars": 7336,
-    "pushedAt": "2026-10-26T22:33:10Z",
+    "pushedAt": "2026-10-27T04:40:25Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 1284653133,
@@ -642,12 +642,12 @@
       "search-engine",
       "vector-search"
     ],
-    "stars": 16824,
-    "pushedAt": "2026-10-26T22:10:13Z",
+    "stars": 16892,
+    "pushedAt": "2026-10-27T04:52:58Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 340339997,
@@ -672,11 +672,11 @@
       "windows"
     ],
     "stars": 11670,
-    "pushedAt": "2026-10-26T22:09:52Z",
+    "pushedAt": "2026-10-27T04:13:27Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 952238700,
@@ -694,12 +694,12 @@
       "mcp-tools",
       "modelcontextprotocol"
     ],
-    "stars": 9836,
+    "stars": 9837,
     "pushedAt": "2026-10-26T21:59:15Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 1189234446,
@@ -718,12 +718,12 @@
       "nous-research",
       "skills"
     ],
-    "stars": 5905,
+    "stars": 5906,
     "pushedAt": "2026-10-26T21:44:50Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 813564769,
@@ -753,11 +753,11 @@
       "visual-query-builder"
     ],
     "stars": 5042,
-    "pushedAt": "2026-10-26T21:41:37Z",
+    "pushedAt": "2026-10-27T03:35:56Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 995029641,
@@ -786,12 +786,12 @@
       "swarm-intelligence",
       "typescript"
     ],
-    "stars": 79526,
-    "pushedAt": "2026-10-26T21:37:25Z",
+    "stars": 79597,
+    "pushedAt": "2026-10-27T00:39:20Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 968197216,
@@ -807,12 +807,12 @@
       "mcp-client",
       "mcp-server"
     ],
-    "stars": 108551,
-    "pushedAt": "2026-10-26T21:36:34Z",
+    "stars": 108557,
+    "pushedAt": "2026-10-27T01:15:46Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 391740664,
@@ -841,12 +841,12 @@
       "ontologies-api",
       "semantics"
     ],
-    "stars": 15587,
-    "pushedAt": "2026-10-26T21:11:52Z",
+    "stars": 15590,
+    "pushedAt": "2026-10-27T05:12:49Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 761150311,
@@ -867,12 +867,12 @@
       "prompt-engineering",
       "structured-output"
     ],
-    "stars": 7299,
-    "pushedAt": "2026-10-26T21:10:57Z",
+    "stars": 7300,
+    "pushedAt": "2026-10-27T05:12:43Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 1073224021,
@@ -884,11 +884,11 @@
       "engineering"
     ],
     "stars": 25727,
-    "pushedAt": "2026-10-26T21:09:26Z",
+    "pushedAt": "2026-10-27T01:07:30Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 969302809,
@@ -916,12 +916,12 @@
       "coding-assistants",
       "llm"
     ],
-    "stars": 56618,
-    "pushedAt": "2026-10-26T21:08:28Z",
+    "stars": 56631,
+    "pushedAt": "2026-10-27T03:12:16Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 454467716,
@@ -951,11 +951,11 @@
       "vscode"
     ],
     "stars": 5384,
-    "pushedAt": "2026-10-26T21:01:36Z",
+    "pushedAt": "2026-10-27T02:25:42Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 1039587768,
@@ -974,12 +974,12 @@
       "openai",
       "swift"
     ],
-    "stars": 8078,
-    "pushedAt": "2026-10-26T20:50:19Z",
+    "stars": 8080,
+    "pushedAt": "2026-10-27T05:08:38Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 655783613,
@@ -1012,7 +1012,7 @@
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 1056618941,
@@ -1029,12 +1029,12 @@
       "mcp",
       "model-context-protocol"
     ],
-    "stars": 5278,
-    "pushedAt": "2026-10-26T20:01:00Z",
+    "stars": 5282,
+    "pushedAt": "2026-10-27T02:42:12Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 1168900408,
@@ -1060,12 +1060,12 @@
       "pi",
       "spec-driven-development"
     ],
-    "stars": 8036,
-    "pushedAt": "2026-10-26T19:58:49Z",
+    "stars": 8043,
+    "pushedAt": "2026-10-27T00:43:14Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 1190557545,
@@ -1094,12 +1094,12 @@
       "pkm",
       "second-brain"
     ],
-    "stars": 4954,
+    "stars": 4961,
     "pushedAt": "2026-10-26T19:53:13Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 1130564872,
@@ -1120,12 +1120,12 @@
       "palantir",
       "situation"
     ],
-    "stars": 89599,
-    "pushedAt": "2026-10-26T19:52:16Z",
+    "stars": 89616,
+    "pushedAt": "2026-10-27T05:08:16Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 955620917,
@@ -1138,12 +1138,12 @@
       "mcp-server",
       "vibe-coding"
     ],
-    "stars": 63735,
+    "stars": 63741,
     "pushedAt": "2026-10-26T19:31:25Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 1135212071,
@@ -1172,12 +1172,12 @@
       "seo",
       "skill-md"
     ],
-    "stars": 56686,
+    "stars": 56731,
     "pushedAt": "2026-10-26T19:16:55Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 679343504,
@@ -1205,12 +1205,12 @@
       "open-source",
       "vector-database"
     ],
-    "stars": 32783,
-    "pushedAt": "2026-10-26T18:59:51Z",
+    "stars": 32792,
+    "pushedAt": "2026-10-27T01:07:15Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 953521037,
@@ -1233,12 +1233,12 @@
       "mcp-server",
       "nextjs"
     ],
-    "stars": 36425,
-    "pushedAt": "2026-10-26T18:36:18Z",
+    "stars": 36429,
+    "pushedAt": "2026-10-27T02:02:58Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 1200204014,
@@ -1264,12 +1264,12 @@
       "social-science",
       "sociology"
     ],
-    "stars": 4785,
+    "stars": 4788,
     "pushedAt": "2026-10-26T18:32:39Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 956472076,
@@ -1303,7 +1303,7 @@
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 1171026502,
@@ -1328,12 +1328,12 @@
       "oauth2",
       "rust"
     ],
-    "stars": 31917,
+    "stars": 31928,
     "pushedAt": "2026-10-26T18:14:33Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 180137089,
@@ -1362,12 +1362,12 @@
       "technical-analysis",
       "valuation"
     ],
-    "stars": 5468,
+    "stars": 5469,
     "pushedAt": "2026-10-26T18:13:18Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 1201476594,
@@ -1396,12 +1396,12 @@
       "open-source",
       "resume"
     ],
-    "stars": 77620,
+    "stars": 77675,
     "pushedAt": "2026-10-26T18:12:39Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 572570113,
@@ -1423,12 +1423,12 @@
       "workflow-automation",
       "workflows"
     ],
-    "stars": 16621,
+    "stars": 16622,
     "pushedAt": "2026-10-26T18:09:02Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 1110782890,
@@ -1447,12 +1447,12 @@
       "pi",
       "productivity"
     ],
-    "stars": 15813,
-    "pushedAt": "2026-10-26T18:06:41Z",
+    "stars": 15815,
+    "pushedAt": "2026-10-27T03:51:17Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 1124295269,
@@ -1480,12 +1480,12 @@
       "trade",
       "typesafe-ai"
     ],
-    "stars": 13140,
+    "stars": 13146,
     "pushedAt": "2026-10-26T17:42:24Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 1210155353,
@@ -1502,12 +1502,12 @@
       "office-automation",
       "presentation-slides"
     ],
-    "stars": 5931,
+    "stars": 5932,
     "pushedAt": "2026-10-26T17:14:59Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 1147094660,
@@ -1536,12 +1536,12 @@
       "webui",
       "workflow-automation"
     ],
-    "stars": 49418,
-    "pushedAt": "2026-10-26T16:57:18Z",
+    "stars": 49440,
+    "pushedAt": "2026-10-27T05:07:43Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 1079084637,
@@ -1570,12 +1570,12 @@
       "openclaw-skills",
       "prompt-engineering"
     ],
-    "stars": 28780,
+    "stars": 28789,
     "pushedAt": "2026-10-26T16:54:47Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 805155266,
@@ -1593,12 +1593,12 @@
       "skills",
       "vibe-coding"
     ],
-    "stars": 53006,
-    "pushedAt": "2026-10-26T16:39:18Z",
+    "stars": 53012,
+    "pushedAt": "2026-10-27T05:09:00Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 1223170290,
@@ -1627,12 +1627,12 @@
       "ui-generator",
       "vibe-coding"
     ],
-    "stars": 104150,
-    "pushedAt": "2026-10-26T16:11:02Z",
+    "stars": 104201,
+    "pushedAt": "2026-10-27T05:04:13Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 1287804060,
@@ -1661,12 +1661,12 @@
       "scientific-computing",
       "scientific-research"
     ],
-    "stars": 5373,
-    "pushedAt": "2026-10-26T16:04:51Z",
+    "stars": 5379,
+    "pushedAt": "2026-10-27T04:56:23Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 932490533,
@@ -1694,11 +1694,11 @@
       "openclaw"
     ],
     "stars": 6374,
-    "pushedAt": "2026-10-26T15:45:44Z",
+    "pushedAt": "2026-10-27T04:43:44Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 1218208502,
@@ -1727,12 +1727,12 @@
       "writing-assistant",
       "zenstory"
     ],
-    "stars": 8028,
+    "stars": 8034,
     "pushedAt": "2026-10-26T15:38:49Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 946174307,
@@ -1748,11 +1748,11 @@
       "modelcontextprotocol"
     ],
     "stars": 4601,
-    "pushedAt": "2026-10-26T15:18:37Z",
+    "pushedAt": "2026-10-27T02:18:42Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 1186742994,
@@ -1777,12 +1777,12 @@
       "tdd",
       "trae"
     ],
-    "stars": 8388,
+    "stars": 8391,
     "pushedAt": "2026-10-26T15:07:56Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 1054793726,
@@ -1799,12 +1799,12 @@
       "mcp-server",
       "puppeteer"
     ],
-    "stars": 54206,
+    "stars": 54222,
     "pushedAt": "2026-10-26T15:03:56Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 926087200,
@@ -1820,12 +1820,12 @@
       "xiaozhi-esp32",
       "xiaozhi-server"
     ],
-    "stars": 11046,
-    "pushedAt": "2026-10-26T14:47:47Z",
+    "stars": 11048,
+    "pushedAt": "2026-10-27T03:18:25Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 862578138,
@@ -1838,12 +1838,12 @@
       "mcp-server",
       "typescript"
     ],
-    "stars": 13657,
-    "pushedAt": "2026-10-26T14:35:13Z",
+    "stars": 13659,
+    "pushedAt": "2026-10-27T01:24:30Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 1142800652,
@@ -1872,12 +1872,12 @@
       "typescript",
       "visual-query-builder"
     ],
-    "stars": 5296,
+    "stars": 5302,
     "pushedAt": "2026-10-26T14:30:34Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 1216173720,
@@ -1894,12 +1894,12 @@
       "pptx",
       "typesetting"
     ],
-    "stars": 12093,
+    "stars": 12095,
     "pushedAt": "2026-10-26T14:30:13Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 525443495,
@@ -1932,7 +1932,7 @@
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 68968979,
@@ -1955,12 +1955,12 @@
       "typescript",
       "windows"
     ],
-    "stars": 18790,
-    "pushedAt": "2026-10-26T13:54:34Z",
+    "stars": 18793,
+    "pushedAt": "2026-10-27T01:09:56Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 1047320420,
@@ -1980,12 +1980,12 @@
       "reverse-engineering",
       "static-analysis"
     ],
-    "stars": 5927,
+    "stars": 5933,
     "pushedAt": "2026-10-26T13:49:08Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 691347156,
@@ -2008,12 +2008,12 @@
       "qwen3",
       "rag"
     ],
-    "stars": 23045,
-    "pushedAt": "2026-10-26T13:45:50Z",
+    "stars": 23048,
+    "pushedAt": "2026-10-27T03:21:17Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 726082384,
@@ -2042,12 +2042,12 @@
       "typesafe",
       "typescript"
     ],
-    "stars": 16164,
+    "stars": 16165,
     "pushedAt": "2026-10-26T13:21:15Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 1208642537,
@@ -2076,12 +2076,12 @@
       "web-scraping",
       "web-search"
     ],
-    "stars": 5504,
+    "stars": 5506,
     "pushedAt": "2026-10-26T13:04:33Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 1597789,
@@ -2110,12 +2110,12 @@
       "webgl",
       "webgpu"
     ],
-    "stars": 6421,
-    "pushedAt": "2026-10-26T13:02:18Z",
+    "stars": 6422,
+    "pushedAt": "2026-10-27T01:03:45Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 1271239690,
@@ -2144,12 +2144,12 @@
       "web3",
       "x402"
     ],
-    "stars": 7019,
+    "stars": 7021,
     "pushedAt": "2026-10-26T12:55:11Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 244694886,
@@ -2177,12 +2177,12 @@
       "tsdb",
       "victoriametrics"
     ],
-    "stars": 13395,
-    "pushedAt": "2026-10-26T12:54:31Z",
+    "stars": 13396,
+    "pushedAt": "2026-10-27T04:43:40Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 1212503250,
@@ -2201,12 +2201,12 @@
       "skills",
       "skills-sh"
     ],
-    "stars": 19750,
-    "pushedAt": "2026-10-26T12:47:14Z",
+    "stars": 19884,
+    "pushedAt": "2026-10-27T04:33:51Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 1132431999,
@@ -2234,7 +2234,7 @@
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 1346499044,
@@ -2258,12 +2258,12 @@
       "youtube-automation",
       "youtube-shorts"
     ],
-    "stars": 11762,
-    "pushedAt": "2026-10-26T11:50:47Z",
+    "stars": 11824,
+    "pushedAt": "2026-10-27T03:50:47Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 872119017,
@@ -2292,12 +2292,12 @@
       "webscraping",
       "xpath"
     ],
-    "stars": 89877,
+    "stars": 89917,
     "pushedAt": "2026-10-26T11:47:40Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 1179363570,
@@ -2317,11 +2317,11 @@
       "superpowers"
     ],
     "stars": 7367,
-    "pushedAt": "2026-10-26T11:46:34Z",
+    "pushedAt": "2026-10-27T03:39:37Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 1288325627,
@@ -2347,12 +2347,12 @@
       "openai",
       "tree-sitter"
     ],
-    "stars": 10785,
-    "pushedAt": "2026-10-26T11:28:51Z",
+    "stars": 10800,
+    "pushedAt": "2026-10-27T00:34:20Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 425387994,
@@ -2381,12 +2381,12 @@
       "video-downloader",
       "web-scraping"
     ],
-    "stars": 20913,
-    "pushedAt": "2026-10-26T11:16:53Z",
+    "stars": 20923,
+    "pushedAt": "2026-10-27T03:56:18Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 904490600,
@@ -2407,12 +2407,12 @@
       "video-transcription",
       "video-translation"
     ],
-    "stars": 13949,
+    "stars": 13951,
     "pushedAt": "2026-10-26T10:28:11Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 997890921,
@@ -2425,12 +2425,12 @@
       "n8n",
       "workflows"
     ],
-    "stars": 23144,
+    "stars": 23143,
     "pushedAt": "2026-10-26T09:53:32Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 74436942,
@@ -2464,7 +2464,7 @@
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 1044010907,
@@ -2496,7 +2496,7 @@
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 1079456184,
@@ -2522,12 +2522,12 @@
       "scientific-computing",
       "scientific-visualization"
     ],
-    "stars": 54769,
+    "stars": 54809,
     "pushedAt": "2026-10-26T09:36:15Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 77145066,
@@ -2556,12 +2556,12 @@
       "selenium",
       "vllm"
     ],
-    "stars": 16042,
+    "stars": 16044,
     "pushedAt": "2026-10-26T08:45:22Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 1110443421,
@@ -2585,12 +2585,12 @@
       "vector-database",
       "vector-db"
     ],
-    "stars": 16151,
+    "stars": 16152,
     "pushedAt": "2026-10-26T08:41:43Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 1186805550,
@@ -2598,12 +2598,12 @@
     "url": "https://github.com/anthropics/claude-plugins-community",
     "description": "Community plugin marketplace for Claude Cowork and Claude Code. Read-only mirror — submit plugins at clau.de/plugin-directory-submission.",
     "topics": [],
-    "stars": 4773,
+    "stars": 4776,
     "pushedAt": "2026-10-26T08:16:07Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 1147838400,
@@ -2628,12 +2628,12 @@
       "skill-md",
       "skills"
     ],
-    "stars": 8706,
+    "stars": 8726,
     "pushedAt": "2026-10-26T07:30:01Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 1126473386,
@@ -2649,12 +2649,12 @@
       "statusline",
       "typescript"
     ],
-    "stars": 28905,
+    "stars": 28919,
     "pushedAt": "2026-10-26T07:15:19Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 622424201,
@@ -2682,12 +2682,12 @@
       "seedance",
       "tools"
     ],
-    "stars": 6251,
-    "pushedAt": "2026-10-26T06:09:56Z",
+    "stars": 6253,
+    "pushedAt": "2026-10-26T23:59:33Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 1211139949,
@@ -2716,12 +2716,12 @@
       "system-design",
       "visualization"
     ],
-    "stars": 89766,
-    "pushedAt": "2026-10-26T05:59:06Z",
+    "stars": 89950,
+    "pushedAt": "2026-10-27T01:15:41Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 1000362065,
@@ -2738,12 +2738,12 @@
       "hacktoberfest",
       "prompt-engineering"
     ],
-    "stars": 40443,
-    "pushedAt": "2026-10-26T05:43:42Z",
+    "stars": 40455,
+    "pushedAt": "2026-10-27T04:54:04Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 1283907968,
@@ -2770,12 +2770,12 @@
       "self-hosted",
       "typescript"
     ],
-    "stars": 6096,
-    "pushedAt": "2026-10-26T05:18:46Z",
+    "stars": 6097,
+    "pushedAt": "2026-10-27T03:56:50Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 1100259232,
@@ -2783,12 +2783,12 @@
     "url": "https://github.com/zhukunpenglinyutong/jetbrains-cc-gui",
     "description": "Jetbrains Claude Code and Codex GUI Plugin",
     "topics": [],
-    "stars": 7277,
-    "pushedAt": "2026-10-26T05:06:33Z",
+    "stars": 7283,
+    "pushedAt": "2026-10-27T04:58:14Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 1031215137,
@@ -2800,12 +2800,12 @@
       "mcp-server",
       "xiaohongshu-mcp"
     ],
-    "stars": 16583,
+    "stars": 16589,
     "pushedAt": "2026-10-26T04:47:24Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 1166102148,
@@ -2834,12 +2834,12 @@
       "tree-sitter",
       "windsurf"
     ],
-    "stars": 47564,
+    "stars": 47587,
     "pushedAt": "2026-10-26T01:29:10Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 1124920990,
@@ -2869,7 +2869,7 @@
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 1025856648,
@@ -2898,12 +2898,12 @@
       "pi-coding-agent",
       "subagents"
     ],
-    "stars": 41806,
+    "stars": 41835,
     "pushedAt": "2026-10-26T01:08:14Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 1326531152,
@@ -2922,12 +2922,12 @@
       "design-rules",
       "ui-design"
     ],
-    "stars": 7244,
+    "stars": 7259,
     "pushedAt": "2026-10-25T22:54:19Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 1203670949,
@@ -2956,12 +2956,12 @@
       "pkm",
       "second-brain"
     ],
-    "stars": 15862,
+    "stars": 15865,
     "pushedAt": "2026-10-25T22:24:31Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 1226123343,
@@ -2983,12 +2983,12 @@
       "self-study",
       "study-tools"
     ],
-    "stars": 36188,
+    "stars": 36207,
     "pushedAt": "2026-10-25T21:24:13Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 1232669890,
@@ -2999,12 +2999,12 @@
       "agent-skills",
       "self-evolving-agents"
     ],
-    "stars": 18705,
+    "stars": 18709,
     "pushedAt": "2026-10-25T21:19:21Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 979886407,
@@ -3033,12 +3033,12 @@
       "python",
       "tools"
     ],
-    "stars": 4700,
+    "stars": 4701,
     "pushedAt": "2026-10-25T19:40:38Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 1188521544,
@@ -3072,7 +3072,7 @@
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 1034736943,
@@ -3094,12 +3094,12 @@
       "trading-strategies",
       "tradingview"
     ],
-    "stars": 5147,
+    "stars": 5148,
     "pushedAt": "2026-10-25T17:42:13Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 267749451,
@@ -3127,12 +3127,12 @@
       "openclaw",
       "rag"
     ],
-    "stars": 5712,
-    "pushedAt": "2026-10-25T13:57:48Z",
+    "stars": 5714,
+    "pushedAt": "2026-10-27T02:15:56Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 1084853233,
@@ -3155,12 +3155,12 @@
       "opencode-skills",
       "skills"
     ],
-    "stars": 36407,
+    "stars": 36418,
     "pushedAt": "2026-10-25T13:18:51Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 862584018,
@@ -3173,12 +3173,12 @@
       "mcp-server",
       "python"
     ],
-    "stars": 24677,
+    "stars": 24679,
     "pushedAt": "2026-10-25T13:05:36Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 1202937420,
@@ -3194,12 +3194,12 @@
       "model-context-protocol",
       "retrieval"
     ],
-    "stars": 6302,
+    "stars": 6307,
     "pushedAt": "2026-10-25T08:32:10Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 960665821,
@@ -3222,12 +3222,12 @@
       "rust",
       "typescript"
     ],
-    "stars": 17517,
+    "stars": 17515,
     "pushedAt": "2026-10-25T04:42:02Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 837911756,
@@ -3256,12 +3256,12 @@
       "self-hosted",
       "stealth-browser"
     ],
-    "stars": 32259,
+    "stars": 32260,
     "pushedAt": "2026-10-25T01:04:52Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 1134426800,
@@ -3290,12 +3290,12 @@
       "mcp",
       "skill-library"
     ],
-    "stars": 48547,
-    "pushedAt": "2026-10-24T21:31:58Z",
+    "stars": 48563,
+    "pushedAt": "2026-10-27T03:03:52Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 1316443307,
@@ -3314,12 +3314,12 @@
       "microsoft-scout",
       "screen-recording"
     ],
-    "stars": 5217,
+    "stars": 5248,
     "pushedAt": "2026-10-24T18:47:51Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 1127110039,
@@ -3348,12 +3348,12 @@
       "planning",
       "session-recovery"
     ],
-    "stars": 27676,
+    "stars": 27686,
     "pushedAt": "2026-10-24T17:24:38Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 1177608268,
@@ -3382,12 +3382,12 @@
       "paper-writing",
       "research-automation"
     ],
-    "stars": 18116,
+    "stars": 18121,
     "pushedAt": "2026-10-24T15:48:19Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 1389011744,
@@ -3416,12 +3416,12 @@
       "video-production",
       "webgl"
     ],
-    "stars": 8050,
+    "stars": 8234,
     "pushedAt": "2026-10-24T09:36:32Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 944414751,
@@ -3441,12 +3441,12 @@
       "model-context-protocol",
       "python"
     ],
-    "stars": 32422,
+    "stars": 32437,
     "pushedAt": "2026-10-24T04:50:20Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 739667828,
@@ -3465,7 +3465,7 @@
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 1278883735,
@@ -3494,12 +3494,12 @@
       "unreal",
       "windsurf"
     ],
-    "stars": 4814,
+    "stars": 4905,
     "pushedAt": "2026-10-24T02:31:50Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 1134447175,
@@ -3509,12 +3509,12 @@
     "topics": [
       "agent-skills"
     ],
-    "stars": 7822,
+    "stars": 7828,
     "pushedAt": "2026-10-24T01:53:03Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 942771284,
@@ -3526,12 +3526,12 @@
       "mcp",
       "mcp-server"
     ],
-    "stars": 33987,
+    "stars": 33992,
     "pushedAt": "2026-10-23T21:21:33Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 1271560627,
@@ -3546,12 +3546,12 @@
       "launch-video",
       "video-generation"
     ],
-    "stars": 18851,
+    "stars": 18899,
     "pushedAt": "2026-10-23T21:18:13Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 1264396304,
@@ -3565,12 +3565,12 @@
       "llm-agents",
       "python"
     ],
-    "stars": 10793,
+    "stars": 10811,
     "pushedAt": "2026-10-23T16:35:45Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 1215145625,
@@ -3589,12 +3589,12 @@
       "pptx",
       "prototype"
     ],
-    "stars": 26708,
+    "stars": 27142,
     "pushedAt": "2026-10-23T15:32:08Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 1202492868,
@@ -3623,12 +3623,12 @@
       "n8n",
       "remote-mcp"
     ],
-    "stars": 6102,
+    "stars": 6115,
     "pushedAt": "2026-10-23T09:50:41Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 1350978527,
@@ -3657,12 +3657,12 @@
       "seo-mcp",
       "seo-mcp-server"
     ],
-    "stars": 7460,
+    "stars": 7484,
     "pushedAt": "2026-10-23T09:50:40Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 1138946494,
@@ -3689,12 +3689,12 @@
       "meta-ads-mcp",
       "seo"
     ],
-    "stars": 5861,
+    "stars": 5878,
     "pushedAt": "2026-10-23T09:50:38Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 1187630119,
@@ -3714,12 +3714,12 @@
       "security-workflow",
       "supply-chain-security"
     ],
-    "stars": 22133,
+    "stars": 22383,
     "pushedAt": "2026-10-23T09:40:29Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 1143952193,
@@ -3730,12 +3730,12 @@
       "agent-skills",
       "skills"
     ],
-    "stars": 6011,
+    "stars": 6013,
     "pushedAt": "2026-10-23T02:36:51Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 679219059,
@@ -3764,12 +3764,12 @@
       "windows",
       "xiaohongshu"
     ],
-    "stars": 13117,
+    "stars": 13120,
     "pushedAt": "2026-10-23T01:44:14Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 945551361,
@@ -3785,12 +3785,12 @@
       "xcode",
       "xcodebuild"
     ],
-    "stars": 6511,
-    "pushedAt": "2026-10-22T20:38:20Z",
+    "stars": 6510,
+    "pushedAt": "2026-10-27T03:44:20Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 727109010,
@@ -3805,12 +3805,12 @@
       "xiaohongshu",
       "youtube"
     ],
-    "stars": 15829,
+    "stars": 15841,
     "pushedAt": "2026-10-22T18:42:22Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 569959091,
@@ -3839,12 +3839,12 @@
       "voice-activity-detection",
       "whisper-alternative"
     ],
-    "stars": 20828,
+    "stars": 20830,
     "pushedAt": "2026-10-22T17:56:34Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 305646330,
@@ -3868,12 +3868,12 @@
       "whatsapp-web",
       "whatsapp-web-api"
     ],
-    "stars": 7692,
+    "stars": 7694,
     "pushedAt": "2026-10-22T10:49:15Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 1210670063,
@@ -3902,12 +3902,12 @@
       "skill-md",
       "social-media-automation"
     ],
-    "stars": 5218,
+    "stars": 5227,
     "pushedAt": "2026-10-22T10:45:21Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 881804112,
@@ -3918,12 +3918,12 @@
       "agent-skills",
       "xget"
     ],
-    "stars": 8208,
+    "stars": 8207,
     "pushedAt": "2026-10-22T07:56:49Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 443220240,
@@ -3950,7 +3950,7 @@
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 1241960226,
@@ -3965,12 +3965,12 @@
       "harness",
       "repository-level-context"
     ],
-    "stars": 48359,
+    "stars": 48391,
     "pushedAt": "2026-10-22T04:24:26Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 759799529,
@@ -4001,7 +4001,7 @@
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 631285104,
@@ -4020,12 +4020,12 @@
       "web-scraper",
       "web-scraping"
     ],
-    "stars": 6896,
+    "stars": 6901,
     "pushedAt": "2026-10-21T10:24:36Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 974186260,
@@ -4050,12 +4050,12 @@
       "wechat",
       "wework"
     ],
-    "stars": 63211,
+    "stars": 63216,
     "pushedAt": "2026-10-20T11:24:10Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 1388867993,
@@ -4072,12 +4072,12 @@
       "logo-design",
       "svg"
     ],
-    "stars": 4718,
+    "stars": 4748,
     "pushedAt": "2026-10-20T09:14:19Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 895291604,
@@ -4094,12 +4094,12 @@
       "web-search",
       "websearch"
     ],
-    "stars": 5173,
+    "stars": 5175,
     "pushedAt": "2026-10-19T19:23:37Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 950564038,
@@ -4124,12 +4124,12 @@
       "unity3d",
       "videogames"
     ],
-    "stars": 15448,
+    "stars": 15452,
     "pushedAt": "2026-10-19T18:48:57Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 1141704318,
@@ -4150,12 +4150,12 @@
       "openclaw",
       "openclaw-skills"
     ],
-    "stars": 53363,
+    "stars": 53365,
     "pushedAt": "2026-10-19T05:54:13Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 403559729,
@@ -4181,12 +4181,12 @@
       "own-your-data",
       "typed-decisions"
     ],
-    "stars": 8193,
+    "stars": 8196,
     "pushedAt": "2026-10-19T03:30:30Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 1203185600,
@@ -4204,7 +4204,7 @@
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 1266797999,
@@ -4223,12 +4223,12 @@
       "prompt-engineering",
       "yagni"
     ],
-    "stars": 177080,
+    "stars": 177355,
     "pushedAt": "2026-10-18T01:55:14Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 1305663861,
@@ -4251,12 +4251,12 @@
       "video-generation",
       "video-production"
     ],
-    "stars": 13815,
+    "stars": 13890,
     "pushedAt": "2026-10-17T17:50:53Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 1155383451,
@@ -4276,12 +4276,12 @@
       "paid-advertising",
       "ppc"
     ],
-    "stars": 10456,
+    "stars": 10461,
     "pushedAt": "2026-10-17T01:35:42Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 953089294,
@@ -4301,12 +4301,12 @@
       "zotero",
       "zotero-plugin"
     ],
-    "stars": 5582,
+    "stars": 5587,
     "pushedAt": "2026-10-16T21:34:45Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 1136666433,
@@ -4328,12 +4328,12 @@
       "prompt-engineering",
       "writing-tools"
     ],
-    "stars": 61015,
+    "stars": 61102,
     "pushedAt": "2026-10-16T19:12:03Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 1170266927,
@@ -4349,12 +4349,12 @@
       "claude-cowork-plugin",
       "product-management"
     ],
-    "stars": 27398,
+    "stars": 27410,
     "pushedAt": "2026-10-16T12:28:37Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 959543974,
@@ -4380,7 +4380,7 @@
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 1302690078,
@@ -4397,12 +4397,12 @@
       "moxt",
       "svg"
     ],
-    "stars": 6437,
+    "stars": 6445,
     "pushedAt": "2026-10-15T10:59:32Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 1332080070,
@@ -4415,12 +4415,12 @@
       "oxlint",
       "typescript"
     ],
-    "stars": 5706,
+    "stars": 5707,
     "pushedAt": "2026-10-14T00:18:33Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 1158722119,
@@ -4435,12 +4435,12 @@
       "cursor",
       "skills"
     ],
-    "stars": 110796,
+    "stars": 110865,
     "pushedAt": "2026-10-13T20:24:07Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 1221429772,
@@ -4460,12 +4460,12 @@
       "presentation",
       "skill"
     ],
-    "stars": 7337,
+    "stars": 7346,
     "pushedAt": "2026-10-13T13:04:15Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 1195828337,
@@ -4493,12 +4493,12 @@
       "openclaw",
       "personal-agent"
     ],
-    "stars": 26055,
+    "stars": 26074,
     "pushedAt": "2026-10-13T05:57:17Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 1235403234,
@@ -4527,12 +4527,12 @@
       "wechat",
       "xiaohongshu"
     ],
-    "stars": 9251,
+    "stars": 9253,
     "pushedAt": "2026-10-13T02:33:42Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 1220000506,
@@ -4553,12 +4553,12 @@
       "translationese",
       "writing"
     ],
-    "stars": 6267,
+    "stars": 6273,
     "pushedAt": "2026-10-12T09:57:11Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 1171833693,
@@ -4587,12 +4587,12 @@
       "terraform",
       "uml"
     ],
-    "stars": 10378,
+    "stars": 10382,
     "pushedAt": "2026-10-11T11:22:56Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 639835356,
@@ -4612,12 +4612,12 @@
       "search",
       "webscraping"
     ],
-    "stars": 30307,
+    "stars": 30310,
     "pushedAt": "2026-10-10T22:03:53Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 918932603,
@@ -4645,7 +4645,7 @@
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 1087772670,
@@ -4661,12 +4661,12 @@
       "vscode-extension",
       "workflow-automation"
     ],
-    "stars": 5408,
+    "stars": 5406,
     "pushedAt": "2026-10-07T00:11:01Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 1219400421,
@@ -4679,12 +4679,12 @@
       "pixel-art",
       "sprite-generator"
     ],
-    "stars": 4581,
+    "stars": 4585,
     "pushedAt": "2026-10-06T14:09:38Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 1154103908,
@@ -4718,7 +4718,7 @@
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 1403115747,
@@ -4736,12 +4736,12 @@
       "reverse-engineering",
       "saas"
     ],
-    "stars": 5782,
+    "stars": 5843,
     "pushedAt": "2026-10-03T12:07:53Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 1202599845,
@@ -4759,12 +4759,12 @@
       "skills",
       "vibe-coding"
     ],
-    "stars": 21671,
+    "stars": 21676,
     "pushedAt": "2026-10-01T13:15:32Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 1349601607,
@@ -4784,7 +4784,7 @@
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 1078319457,
@@ -4811,12 +4811,12 @@
       "python",
       "web-scraping"
     ],
-    "stars": 15227,
+    "stars": 15229,
     "pushedAt": "2026-09-30T18:49:17Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 1217942969,
@@ -4841,12 +4841,12 @@
       "research-figures",
       "text-to-image"
     ],
-    "stars": 5889,
+    "stars": 5891,
     "pushedAt": "2026-09-30T11:54:50Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 512334495,
@@ -4874,12 +4874,12 @@
       "uiautomator2",
       "xposed"
     ],
-    "stars": 8663,
+    "stars": 8665,
     "pushedAt": "2026-09-27T10:05:24Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 954963562,
@@ -4902,7 +4902,7 @@
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 1105657641,
@@ -4923,12 +4923,12 @@
       "productivity",
       "tips-and-tricks"
     ],
-    "stars": 10273,
+    "stars": 10274,
     "pushedAt": "2026-09-25T03:50:54Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 1078079172,
@@ -4954,12 +4954,12 @@
       "skill",
       "workflow-automation"
     ],
-    "stars": 78007,
+    "stars": 78029,
     "pushedAt": "2026-09-18T07:16:11Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 1374005005,
@@ -4967,12 +4967,12 @@
     "url": "https://github.com/tamaratran/fast-jev-compaction",
     "description": "Claude Code plugin that replaces the compaction summary with Jev decisions: every tool call and result is scored in one fast request, stale ones are dropped or truncated, everything kept stays verbatim.",
     "topics": [],
-    "stars": 7779,
+    "stars": 7780,
     "pushedAt": "2026-09-18T04:45:31Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 1133207146,
@@ -4985,12 +4985,12 @@
       "codex-skills",
       "openclaw-skills"
     ],
-    "stars": 26982,
+    "stars": 26989,
     "pushedAt": "2026-09-10T15:13:43Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 935450522,
@@ -5007,12 +5007,12 @@
       "tailwindcss",
       "ui-components"
     ],
-    "stars": 6266,
+    "stars": 6269,
     "pushedAt": "2026-09-09T20:38:22Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 492526669,
@@ -5029,12 +5029,12 @@
       "typescript",
       "ui-components"
     ],
-    "stars": 6508,
+    "stars": 6511,
     "pushedAt": "2026-08-31T01:53:38Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 1261571908,
@@ -5055,12 +5055,12 @@
       "social-media-research",
       "workflow-automation"
     ],
-    "stars": 4866,
+    "stars": 4884,
     "pushedAt": "2026-08-26T17:26:01Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 1117639997,
@@ -5070,12 +5070,12 @@
     "topics": [
       "agent-skills"
     ],
-    "stars": 26667,
+    "stars": 26674,
     "pushedAt": "2026-08-09T20:36:04Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 1017550802,
@@ -5104,12 +5104,12 @@
       "pentesting",
       "pentesting-tools"
     ],
-    "stars": 13110,
+    "stars": 13116,
     "pushedAt": "2026-08-03T14:33:09Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 949523404,
@@ -5139,7 +5139,7 @@
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 130430977,
@@ -5170,7 +5170,7 @@
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 1196321162,
@@ -5178,12 +5178,12 @@
     "url": "https://github.com/openai/codex-plugin-cc",
     "description": "Use Codex from Claude Code to review code or delegate tasks.",
     "topics": [],
-    "stars": 34605,
+    "stars": 34612,
     "pushedAt": "2026-07-08T00:17:31Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 806192576,
@@ -5212,7 +5212,7 @@
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 936974548,
@@ -5236,7 +5236,7 @@
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 965974441,
@@ -5264,7 +5264,7 @@
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 267857463,
@@ -5283,12 +5283,12 @@
       "redteam",
       "viper"
     ],
-    "stars": 5335,
+    "stars": 5334,
     "pushedAt": "2026-05-31T08:45:04Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 905016458,
@@ -5310,7 +5310,7 @@
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 944976593,
@@ -5337,7 +5337,7 @@
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   },
   {
     "repositoryId": 956283541,
@@ -5352,11 +5352,11 @@
       "mcp",
       "mcp-server"
     ],
-    "stars": 7225,
+    "stars": 7223,
     "pushedAt": "2025-04-24T21:49:44Z",
     "archived": false,
     "fork": false,
     "discoveredAt": "2026-10-26T23:01:35.896Z",
-    "lastSuccessfulAt": "2026-10-26T23:03:08.326Z"
+    "lastSuccessfulAt": "2026-10-27T05:13:13.830Z"
   }
 ]
