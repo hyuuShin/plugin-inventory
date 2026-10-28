@@ -6649,7 +6649,7 @@
   },
   {
     "repositoryId": 1073224795,
-    "observedAt": "2026-10-28T02:14:21.310Z",
+    "observedAt": "2026-10-28T02:15:20.874Z",
     "stars": 306492,
     "releaseId": 420055538,
     "commitSha": "2ce8aa15d05bd57213e6f746f953aafb7ded7a8b",
@@ -6659,14 +6659,14 @@
       "release": true,
       "activity": true
     },
-    "starsObservedAt": "2026-10-28T02:14:21.310Z",
-    "releaseObservedAt": "2026-10-28T02:14:21.310Z",
-    "activityObservedAt": "2026-10-28T02:14:21.310Z"
+    "starsObservedAt": "2026-10-28T02:15:20.874Z",
+    "releaseObservedAt": "2026-10-28T02:15:20.874Z",
+    "activityObservedAt": "2026-10-28T02:15:20.874Z"
   },
   {
     "repositoryId": 1097346685,
-    "observedAt": "2026-10-28T02:14:21.310Z",
-    "stars": 90649,
+    "observedAt": "2026-10-28T02:15:20.874Z",
+    "stars": 90650,
     "releaseId": 424885055,
     "commitSha": "d34c87e1a00989ae8dbdd7f6b30b70f23319e860",
     "scopePath": "",
@@ -6675,13 +6675,13 @@
       "release": true,
       "activity": true
     },
-    "starsObservedAt": "2026-10-28T02:14:21.310Z",
-    "releaseObservedAt": "2026-10-28T02:14:21.310Z",
-    "activityObservedAt": "2026-10-28T02:14:21.310Z"
+    "starsObservedAt": "2026-10-28T02:15:20.874Z",
+    "releaseObservedAt": "2026-10-28T02:15:20.874Z",
+    "activityObservedAt": "2026-10-28T02:15:20.874Z"
   },
   {
     "repositoryId": 1136590548,
-    "observedAt": "2026-10-28T02:14:21.310Z",
+    "observedAt": "2026-10-28T02:15:20.874Z",
     "stars": 290941,
     "releaseId": 401417947,
     "commitSha": "25278e7d7b6cf6e6a4e7a6c8e10f14ff22f0eb5b",
@@ -6691,13 +6691,13 @@
       "release": true,
       "activity": true
     },
-    "starsObservedAt": "2026-10-28T02:14:21.310Z",
-    "releaseObservedAt": "2026-10-28T02:14:21.310Z",
-    "activityObservedAt": "2026-10-28T02:14:21.310Z"
+    "starsObservedAt": "2026-10-28T02:15:20.874Z",
+    "releaseObservedAt": "2026-10-28T02:15:20.874Z",
+    "activityObservedAt": "2026-10-28T02:15:20.874Z"
   },
   {
     "repositoryId": 1162099055,
-    "observedAt": "2026-10-28T02:14:21.310Z",
+    "observedAt": "2026-10-28T02:15:20.874Z",
     "stars": 103729,
     "releaseId": 423046682,
     "commitSha": "12af471f627f866411b4bd785b19646d3672784c",
@@ -6707,13 +6707,29 @@
       "release": true,
       "activity": true
     },
-    "starsObservedAt": "2026-10-28T02:14:21.310Z",
-    "releaseObservedAt": "2026-10-28T02:14:21.310Z",
-    "activityObservedAt": "2026-10-28T02:14:21.310Z"
+    "starsObservedAt": "2026-10-28T02:15:20.874Z",
+    "releaseObservedAt": "2026-10-28T02:15:20.874Z",
+    "activityObservedAt": "2026-10-28T02:15:20.874Z"
+  },
+  {
+    "repositoryId": 1181567753,
+    "observedAt": "2026-10-28T02:15:20.874Z",
+    "stars": 5003,
+    "releaseId": 417159510,
+    "commitSha": "06bd7f2e775694ea136317928c53c19e5721b741",
+    "scopePath": "",
+    "valid": {
+      "stars": true,
+      "release": true,
+      "activity": true
+    },
+    "starsObservedAt": "2026-10-28T02:15:20.874Z",
+    "releaseObservedAt": "2026-10-28T02:15:20.874Z",
+    "activityObservedAt": "2026-10-28T02:15:20.874Z"
   },
   {
     "repositoryId": 1195360525,
-    "observedAt": "2026-10-28T02:14:21.310Z",
+    "observedAt": "2026-10-28T02:15:20.874Z",
     "stars": 72483,
     "releaseId": null,
     "commitSha": "e01dbf433f46eeb91d39bf905e194162921019a3",
@@ -6723,13 +6739,13 @@
       "release": true,
       "activity": true
     },
-    "starsObservedAt": "2026-10-28T02:14:21.310Z",
-    "releaseObservedAt": "2026-10-28T02:14:21.310Z",
-    "activityObservedAt": "2026-10-28T02:14:21.310Z"
+    "starsObservedAt": "2026-10-28T02:15:20.874Z",
+    "releaseObservedAt": "2026-10-28T02:15:20.874Z",
+    "activityObservedAt": "2026-10-28T02:15:20.874Z"
   },
   {
     "repositoryId": 1212769188,
-    "observedAt": "2026-10-28T02:14:21.310Z",
+    "observedAt": "2026-10-28T02:15:20.874Z",
     "stars": 61853,
     "releaseId": null,
     "commitSha": "0cf73c3fcc56667ad91a9a04c439ac6ccfabc9d1",
@@ -6739,8 +6755,8 @@
       "release": true,
       "activity": true
     },
-    "starsObservedAt": "2026-10-28T02:14:21.310Z",
-    "releaseObservedAt": "2026-10-28T02:14:21.310Z",
-    "activityObservedAt": "2026-10-28T02:14:21.310Z"
+    "starsObservedAt": "2026-10-28T02:15:20.874Z",
+    "releaseObservedAt": "2026-10-28T02:15:20.874Z",
+    "activityObservedAt": "2026-10-28T02:15:20.874Z"
   }
 ]
