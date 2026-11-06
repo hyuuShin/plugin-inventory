@@ -32644,5 +32644,2903 @@
       "activity": false
     },
     "starsObservedAt": "2026-11-05T06:56:12.459Z"
+  },
+  {
+    "repositoryId": 1597789,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 6441,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 19537979,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 10876,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 68968979,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 18876,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 77145066,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 16095,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 130430977,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 17077,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 180137089,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 5500,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 193215554,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 209669,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 244694886,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 13454,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 249995750,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 45405,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 267749451,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 5730,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 267857463,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 5344,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 305646330,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 7754,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 306829688,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 24850,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 340339997,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 11739,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 391740664,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 15695,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 403559729,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 8271,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 425387994,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 21207,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 443220240,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 5211,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 454467716,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 5402,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 492526669,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 6522,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 512334495,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 8715,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 525443495,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 9013,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 569959091,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 20949,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 572570113,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 16721,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 573661753,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 25394,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 622424201,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 6278,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 631285104,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 7393,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 639835356,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 30514,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 655783613,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 9248,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 679219059,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 13222,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 679343504,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 33101,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 691347156,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 23119,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 726082384,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 16273,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 727109010,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 16196,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 739667828,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 5371,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 759799529,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 7548,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 761150311,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 7421,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 805155266,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 53297,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 806192576,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 7966,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 813564769,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 5050,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 837911756,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 32381,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 862578138,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 13719,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 862584018,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 24776,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 872119017,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 98327,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 881804112,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 8213,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 895291604,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 5215,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 896296825,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 28324,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 899407931,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 7766,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 904490600,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 14181,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 905016458,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 8577,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 911256711,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 14975,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 918932603,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 39556,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 926087200,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 11179,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 930217913,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 7341,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 932490533,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 6384,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 935450522,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 6393,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 942771284,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 34274,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 944414751,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 33431,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 944976593,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 12026,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 945551361,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 6545,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 949523404,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 7085,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 950564038,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 15748,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 951115072,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 9398,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 952238700,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 9884,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 953089294,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 5763,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 953521037,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 36729,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 953683578,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 31138,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 954963562,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 13381,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 955620917,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 64262,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 956283541,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 7299,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 956472076,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 10850,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 956657893,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 10336,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 959543974,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 7817,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 960665821,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 17612,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 968197216,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 108748,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 969302809,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 57354,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 974186260,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 63476,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 984341155,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 6126,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 995029641,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 81013,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 997890921,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 23220,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 1000362065,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 40858,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 1003043071,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 5314,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 1017550802,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 13389,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 1025856648,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 42246,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 1028492186,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 15753,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 1031215137,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 16950,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 1034736943,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 5218,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 1039587768,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 8133,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 1044010907,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 7399,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 1047320420,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 6134,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 1054793726,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 54862,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 1056618941,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 5447,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 1061953414,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 187868,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 1073224021,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 25947,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 1073224795,
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 313166,
+    "releaseId": 433277732,
+    "commitSha": "22f0b463e7a5e579904dd6211a520321035526f7",
+    "scopePath": "",
+    "valid": {
+      "stars": true,
+      "release": true,
+      "activity": true
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z",
+    "releaseObservedAt": "2026-11-06T06:55:59.910Z",
+    "activityObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 1077819522,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 25353,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 1078079172,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 78883,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 1078319457,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 15284,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 1079084637,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 29377,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 1079456184,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 56239,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 1084853233,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 36905,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 1087772670,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 5448,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 1097346685,
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 104176,
+    "releaseId": 424885055,
+    "commitSha": "c3bb418ee38ee49a6b999b7752c1368f3123a2bd",
+    "scopePath": "",
+    "valid": {
+      "stars": true,
+      "release": true,
+      "activity": true
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z",
+    "releaseObservedAt": "2026-11-06T06:55:59.910Z",
+    "activityObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 1100259232,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 7517,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 1100776768,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 46247,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 1105657641,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 10312,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 1110443421,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 16190,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 1110782890,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 15918,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 1117639997,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 26993,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 1124295269,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 13556,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 1124920990,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 6348,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 1126473386,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 29120,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 1127110039,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 27914,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 1130564872,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 90241,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 1132431999,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 11141,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 1133207146,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 27340,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 1134426800,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 49233,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 1134447175,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 8035,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 1135212071,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 58777,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 1136590548,
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 298020,
+    "releaseId": 401417947,
+    "commitSha": "b38be6a7f6350964d59328b52f0624e1d1d552d1",
+    "scopePath": "",
+    "valid": {
+      "stars": true,
+      "release": true,
+      "activity": true
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z",
+    "releaseObservedAt": "2026-11-06T06:55:59.910Z",
+    "activityObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 1136666433,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 65357,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 1138946494,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 6898,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 1141704318,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 53572,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 1142800652,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 5393,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 1143952193,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 6044,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 1147094660,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 49870,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 1147838400,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 9224,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 1149257427,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 5837,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 1155383451,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 10774,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 1158722119,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 113572,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 1162099055,
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 110874,
+    "releaseId": 434590576,
+    "commitSha": "9b4bf937a1f69348126959c15d2f99a73e65699b",
+    "scopePath": "",
+    "valid": {
+      "stars": true,
+      "release": true,
+      "activity": true
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z",
+    "releaseObservedAt": "2026-11-06T06:55:59.910Z",
+    "activityObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 1164477708,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 33570,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 1166102148,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 48189,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 1168900408,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 8445,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 1170266927,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 27727,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 1170821064,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 111531,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 1171026502,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 32137,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 1171833693,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 10608,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 1177608268,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 18751,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 1179363570,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 7521,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 1181567753,
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 6365,
+    "releaseId": 434546871,
+    "commitSha": "0cd5b44272b7dea60d709287c065c19d0cc56d46",
+    "scopePath": "",
+    "valid": {
+      "stars": true,
+      "release": true,
+      "activity": true
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z",
+    "releaseObservedAt": "2026-11-06T06:55:59.910Z",
+    "activityObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 1186219527,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 15396,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 1186742994,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 8486,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 1186805550,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 4833,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 1187630119,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 24574,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 1188521544,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 11440,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 1189234446,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 5969,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 1190557545,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 5186,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 1195360525,
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 77311,
+    "releaseId": null,
+    "commitSha": "d21f5d4eaa08422b09c7091757a05affcbabb35b",
+    "scopePath": "",
+    "valid": {
+      "stars": true,
+      "release": true,
+      "activity": true
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z",
+    "releaseObservedAt": "2026-11-06T06:55:59.910Z",
+    "activityObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 1195828337,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 26404,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 1196321162,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 34922,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 1198124295,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 8676,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 1200204014,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 4935,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 1201476594,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 80525,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 1202492868,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 7029,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 1202599845,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 22007,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 1202937420,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 6363,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 1203670949,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 16212,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 1208642537,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 5531,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 1209966933,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 435384,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 1210155353,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 6031,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 1210670063,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 5650,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 1211139949,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 93976,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 1212503250,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 21829,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 1212769188,
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 65366,
+    "releaseId": null,
+    "commitSha": "f24d98b05e2d7a5e68c2dedfe46e5b7173f50118",
+    "scopePath": "",
+    "valid": {
+      "stars": true,
+      "release": true,
+      "activity": true
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z",
+    "releaseObservedAt": "2026-11-06T06:55:59.910Z",
+    "activityObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 1215145625,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 28831,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 1216173720,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 12282,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 1217942969,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 6014,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 1218208502,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 8346,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 1219400421,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 5281,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 1220000506,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 6424,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 1221429772,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 7672,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 1223170290,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 106184,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 1226123343,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 37093,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 1226971975,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 7301,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 1229284184,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 8595,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 1232669890,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 18916,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 1235403234,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 9433,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 1241960226,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 49534,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 1258203278,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 4790,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 1261571908,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 5816,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 1261650101,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 6146,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 1264396304,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 10745,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 1266797999,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 185391,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 1271239690,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 7059,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 1271560627,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 20467,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 1278883735,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 6972,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 1283907968,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 6191,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 1284653133,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 19084,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 1287804060,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 5472,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 1288325627,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 11112,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 1293238217,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 7788,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 1302690078,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 6733,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 1305663861,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 17331,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 1316443307,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 5697,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 1326531152,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 8416,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 1332080070,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 5966,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 1346499044,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 14488,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 1349601607,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 7669,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 1350978527,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 8879,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 1368596582,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 12555,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 1374005005,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 7895,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 1375615157,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 6174,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 1388867993,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 6081,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 1389011744,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 12763,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
+  },
+  {
+    "repositoryId": 1403115747,
+    "scopePath": "",
+    "observedAt": "2026-11-06T06:55:59.910Z",
+    "stars": 7812,
+    "releaseId": null,
+    "commitSha": null,
+    "valid": {
+      "stars": true,
+      "release": false,
+      "activity": false
+    },
+    "starsObservedAt": "2026-11-06T06:55:59.910Z"
   }
 ]
