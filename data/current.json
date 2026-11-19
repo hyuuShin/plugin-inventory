@@ -1254,7 +1254,7 @@
   "run": {
     "lastAttemptAt": "2026-11-19T07:33:50.407Z",
     "lastSuccessfulAt": "2026-11-19T07:33:50.407Z",
-    "lastPublishedAt": "2026-11-18T07:39:05.715Z",
+    "lastPublishedAt": "2026-11-19T07:34:53.352Z",
     "status": "partial",
     "workflowUrl": "https://github.com/hyuuShin/plugin-inventory/actions/runs/44480527751",
     "errors": [
