@@ -180,22 +180,22 @@
           "repositoryId": 1212769188,
           "fullName": "cathrynlavery/diagram-design",
           "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 52 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
-          "stars": 72417,
+          "stars": 73367,
           "archived": false,
           "defaultBranch": "main",
           "url": "https://github.com/cathrynlavery/diagram-design",
           "pushedAt": "2026-11-25T04:53:00Z"
         },
         "status": "ok",
-        "attemptedAt": "2026-11-25T08:44:16.332Z",
-        "succeededAt": "2026-11-25T08:44:16.332Z",
+        "attemptedAt": "2026-11-26T08:29:20.992Z",
+        "succeededAt": "2026-11-26T08:29:20.992Z",
         "errorCode": null
       },
       "release": {
         "value": null,
         "status": "missing",
-        "attemptedAt": "2026-11-25T08:44:16.332Z",
-        "succeededAt": "2026-11-25T08:44:16.332Z",
+        "attemptedAt": "2026-11-26T08:29:20.992Z",
+        "succeededAt": "2026-11-26T08:29:20.992Z",
         "errorCode": null
       },
       "activity": {
@@ -208,59 +208,59 @@
           "pathExists": true,
           "bins": [
             {
-              "start": "2026-09-02T08:44:16.332Z",
-              "count": 14
-            },
-            {
-              "start": "2026-09-09T08:44:16.332Z",
+              "start": "2026-09-03T08:29:20.992Z",
               "count": 21
             },
             {
-              "start": "2026-09-16T08:44:16.332Z",
+              "start": "2026-09-10T08:29:20.992Z",
+              "count": 13
+            },
+            {
+              "start": "2026-09-17T08:29:20.992Z",
               "count": 12
             },
             {
-              "start": "2026-09-23T08:44:16.332Z",
+              "start": "2026-09-24T08:29:20.992Z",
               "count": 26
             },
             {
-              "start": "2026-09-30T08:44:16.332Z",
-              "count": 50
+              "start": "2026-10-01T08:29:20.992Z",
+              "count": 58
             },
             {
-              "start": "2026-10-07T08:44:16.332Z",
-              "count": 76
+              "start": "2026-10-08T08:29:20.992Z",
+              "count": 70
             },
             {
-              "start": "2026-10-14T08:44:16.332Z",
+              "start": "2026-10-15T08:29:20.992Z",
+              "count": 40
+            },
+            {
+              "start": "2026-10-22T08:29:20.992Z",
               "count": 34
             },
             {
-              "start": "2026-10-21T08:44:16.332Z",
-              "count": 42
-            },
-            {
-              "start": "2026-10-28T08:44:16.332Z",
+              "start": "2026-10-29T08:29:20.992Z",
               "count": 10
             },
             {
-              "start": "2026-11-04T08:44:16.332Z",
+              "start": "2026-11-05T08:29:20.992Z",
               "count": 24
             },
             {
-              "start": "2026-11-11T08:44:16.332Z",
-              "count": 22
+              "start": "2026-11-12T08:29:20.992Z",
+              "count": 30
             },
             {
-              "start": "2026-11-18T08:44:16.332Z",
-              "count": 30
+              "start": "2026-11-19T08:29:20.992Z",
+              "count": 22
             }
           ],
           "complete": true
         },
         "status": "ok",
-        "attemptedAt": "2026-11-25T08:44:16.332Z",
-        "succeededAt": "2026-11-25T08:44:16.332Z",
+        "attemptedAt": "2026-11-26T08:29:20.992Z",
+        "succeededAt": "2026-11-26T08:29:20.992Z",
         "errorCode": null
       },
       "changes": {
@@ -268,7 +268,7 @@
         "releaseBaselineAvailable": true,
         "commitBaselineAvailable": true,
         "releaseChanged": false,
-        "commitChanged": true
+        "commitChanged": false
       }
     },
     {
@@ -287,15 +287,15 @@
           "repositoryId": 1136590548,
           "fullName": "affaan-m/ECC",
           "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-          "stars": 310393,
+          "stars": 310902,
           "archived": false,
           "defaultBranch": "main",
           "url": "https://github.com/affaan-m/ECC",
           "pushedAt": "2026-11-23T04:55:48Z"
         },
         "status": "ok",
-        "attemptedAt": "2026-11-25T08:44:16.332Z",
-        "succeededAt": "2026-11-25T08:44:16.332Z",
+        "attemptedAt": "2026-11-26T08:29:20.992Z",
+        "succeededAt": "2026-11-26T08:29:20.992Z",
         "errorCode": null
       },
       "release": {
@@ -307,8 +307,8 @@
           "scope": "repository"
         },
         "status": "ok",
-        "attemptedAt": "2026-11-25T08:44:16.332Z",
-        "succeededAt": "2026-11-25T08:44:16.332Z",
+        "attemptedAt": "2026-11-26T08:29:20.992Z",
+        "succeededAt": "2026-11-26T08:29:20.992Z",
         "errorCode": null
       },
       "activity": {
@@ -321,59 +321,59 @@
           "pathExists": true,
           "bins": [
             {
-              "start": "2026-09-02T08:44:16.332Z",
+              "start": "2026-09-03T08:29:20.992Z",
               "count": null
             },
             {
-              "start": "2026-09-09T08:44:16.332Z",
+              "start": "2026-09-10T08:29:20.992Z",
               "count": null
             },
             {
-              "start": "2026-09-16T08:44:16.332Z",
+              "start": "2026-09-17T08:29:20.992Z",
               "count": null
             },
             {
-              "start": "2026-09-23T08:44:16.332Z",
+              "start": "2026-09-24T08:29:20.992Z",
               "count": null
             },
             {
-              "start": "2026-09-30T08:44:16.332Z",
+              "start": "2026-10-01T08:29:20.992Z",
               "count": null
             },
             {
-              "start": "2026-10-07T08:44:16.332Z",
+              "start": "2026-10-08T08:29:20.992Z",
               "count": null
             },
             {
-              "start": "2026-10-14T08:44:16.332Z",
+              "start": "2026-10-15T08:29:20.992Z",
               "count": null
             },
             {
-              "start": "2026-10-21T08:44:16.332Z",
+              "start": "2026-10-22T08:29:20.992Z",
               "count": null
             },
             {
-              "start": "2026-10-28T08:44:16.332Z",
+              "start": "2026-10-29T08:29:20.992Z",
               "count": null
             },
             {
-              "start": "2026-11-04T08:44:16.332Z",
+              "start": "2026-11-05T08:29:20.992Z",
               "count": null
             },
             {
-              "start": "2026-11-11T08:44:16.332Z",
-              "count": 236
+              "start": "2026-11-12T08:29:20.992Z",
+              "count": 234
             },
             {
-              "start": "2026-11-18T08:44:16.332Z",
-              "count": 121
+              "start": "2026-11-19T08:29:20.992Z",
+              "count": 92
             }
           ],
           "complete": false
         },
         "status": "partial",
-        "attemptedAt": "2026-11-25T08:44:16.332Z",
-        "succeededAt": "2026-11-25T08:44:16.332Z",
+        "attemptedAt": "2026-11-26T08:29:20.992Z",
+        "succeededAt": "2026-11-26T08:29:20.992Z",
         "errorCode": null
       },
       "changes": {
@@ -400,15 +400,15 @@
           "repositoryId": 1162099055,
           "fullName": "Leonxlnx/taste-skill",
           "description": "Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages",
-          "stars": 121279,
+          "stars": 121716,
           "archived": false,
           "defaultBranch": "main",
           "url": "https://github.com/Leonxlnx/taste-skill",
-          "pushedAt": "2026-11-25T04:15:20Z"
+          "pushedAt": "2026-11-26T01:29:24Z"
         },
         "status": "ok",
-        "attemptedAt": "2026-11-25T08:44:16.332Z",
-        "succeededAt": "2026-11-25T08:44:16.332Z",
+        "attemptedAt": "2026-11-26T08:29:20.992Z",
+        "succeededAt": "2026-11-26T08:29:20.992Z",
         "errorCode": null
       },
       "release": {
@@ -420,8 +420,8 @@
           "scope": "repository"
         },
         "status": "ok",
-        "attemptedAt": "2026-11-25T08:44:16.332Z",
-        "succeededAt": "2026-11-25T08:44:16.332Z",
+        "attemptedAt": "2026-11-26T08:29:20.992Z",
+        "succeededAt": "2026-11-26T08:29:20.992Z",
         "errorCode": null
       },
       "activity": {
@@ -434,59 +434,59 @@
           "pathExists": true,
           "bins": [
             {
-              "start": "2026-09-02T08:44:16.332Z",
+              "start": "2026-09-03T08:29:20.992Z",
               "count": 2
             },
             {
-              "start": "2026-09-09T08:44:16.332Z",
-              "count": 0
+              "start": "2026-09-10T08:29:20.992Z",
+              "count": 3
             },
             {
-              "start": "2026-09-16T08:44:16.332Z",
-              "count": 11
+              "start": "2026-09-17T08:29:20.992Z",
+              "count": 8
             },
             {
-              "start": "2026-09-23T08:44:16.332Z",
+              "start": "2026-09-24T08:29:20.992Z",
               "count": 4
             },
             {
-              "start": "2026-09-30T08:44:16.332Z",
+              "start": "2026-10-01T08:29:20.992Z",
               "count": 5
             },
             {
-              "start": "2026-10-07T08:44:16.332Z",
-              "count": 32
+              "start": "2026-10-08T08:29:20.992Z",
+              "count": 34
             },
             {
-              "start": "2026-10-14T08:44:16.332Z",
-              "count": 30
+              "start": "2026-10-15T08:29:20.992Z",
+              "count": 28
             },
             {
-              "start": "2026-10-21T08:44:16.332Z",
-              "count": 33
+              "start": "2026-10-22T08:29:20.992Z",
+              "count": 38
             },
             {
-              "start": "2026-10-28T08:44:16.332Z",
-              "count": 22
+              "start": "2026-10-29T08:29:20.992Z",
+              "count": 36
             },
             {
-              "start": "2026-11-04T08:44:16.332Z",
-              "count": 21
+              "start": "2026-11-05T08:29:20.992Z",
+              "count": 2
             },
             {
-              "start": "2026-11-11T08:44:16.332Z",
+              "start": "2026-11-12T08:29:20.992Z",
               "count": 0
             },
             {
-              "start": "2026-11-18T08:44:16.332Z",
+              "start": "2026-11-19T08:29:20.992Z",
               "count": 4
             }
           ],
           "complete": true
         },
         "status": "ok",
-        "attemptedAt": "2026-11-25T08:44:16.332Z",
-        "succeededAt": "2026-11-25T08:44:16.332Z",
+        "attemptedAt": "2026-11-26T08:29:20.992Z",
+        "succeededAt": "2026-11-26T08:29:20.992Z",
         "errorCode": null
       },
       "changes": {
@@ -494,7 +494,7 @@
         "releaseBaselineAvailable": true,
         "commitBaselineAvailable": true,
         "releaseChanged": false,
-        "commitChanged": true
+        "commitChanged": false
       }
     },
     {
@@ -513,15 +513,15 @@
           "repositoryId": 1073224795,
           "fullName": "obra/superpowers",
           "description": "An agentic skills framework & software development methodology that works.",
-          "stars": 326103,
+          "stars": 326913,
           "archived": false,
           "defaultBranch": "main",
           "url": "https://github.com/obra/superpowers",
           "pushedAt": "2026-11-24T23:59:04Z"
         },
         "status": "ok",
-        "attemptedAt": "2026-11-25T08:44:16.332Z",
-        "succeededAt": "2026-11-25T08:44:16.332Z",
+        "attemptedAt": "2026-11-26T08:29:20.992Z",
+        "succeededAt": "2026-11-26T08:29:20.992Z",
         "errorCode": null
       },
       "release": {
@@ -533,8 +533,8 @@
           "scope": "repository"
         },
         "status": "ok",
-        "attemptedAt": "2026-11-25T08:44:16.332Z",
-        "succeededAt": "2026-11-25T08:44:16.332Z",
+        "attemptedAt": "2026-11-26T08:29:20.992Z",
+        "succeededAt": "2026-11-26T08:29:20.992Z",
         "errorCode": null
       },
       "activity": {
@@ -547,59 +547,59 @@
           "pathExists": true,
           "bins": [
             {
-              "start": "2026-09-02T08:44:16.332Z",
+              "start": "2026-09-03T08:29:20.992Z",
               "count": 0
             },
             {
-              "start": "2026-09-09T08:44:16.332Z",
+              "start": "2026-09-10T08:29:20.992Z",
               "count": 0
             },
             {
-              "start": "2026-09-16T08:44:16.332Z",
+              "start": "2026-09-17T08:29:20.992Z",
               "count": 1
             },
             {
-              "start": "2026-09-23T08:44:16.332Z",
+              "start": "2026-09-24T08:29:20.992Z",
               "count": 1
             },
             {
-              "start": "2026-09-30T08:44:16.332Z",
+              "start": "2026-10-01T08:29:20.992Z",
               "count": 0
             },
             {
-              "start": "2026-10-07T08:44:16.332Z",
+              "start": "2026-10-08T08:29:20.992Z",
               "count": 1
             },
             {
-              "start": "2026-10-14T08:44:16.332Z",
-              "count": 1
+              "start": "2026-10-15T08:29:20.992Z",
+              "count": 2
             },
             {
-              "start": "2026-10-21T08:44:16.332Z",
-              "count": 1
-            },
-            {
-              "start": "2026-10-28T08:44:16.332Z",
-              "count": 1
-            },
-            {
-              "start": "2026-11-04T08:44:16.332Z",
+              "start": "2026-10-22T08:29:20.992Z",
               "count": 0
             },
             {
-              "start": "2026-11-11T08:44:16.332Z",
+              "start": "2026-10-29T08:29:20.992Z",
+              "count": 1
+            },
+            {
+              "start": "2026-11-05T08:29:20.992Z",
               "count": 0
             },
             {
-              "start": "2026-11-18T08:44:16.332Z",
+              "start": "2026-11-12T08:29:20.992Z",
+              "count": 0
+            },
+            {
+              "start": "2026-11-19T08:29:20.992Z",
               "count": 0
             }
           ],
           "complete": true
         },
         "status": "ok",
-        "attemptedAt": "2026-11-25T08:44:16.332Z",
-        "succeededAt": "2026-11-25T08:44:16.332Z",
+        "attemptedAt": "2026-11-26T08:29:20.992Z",
+        "succeededAt": "2026-11-26T08:29:20.992Z",
         "errorCode": null
       },
       "changes": {
@@ -626,93 +626,93 @@
           "repositoryId": 1097346685,
           "fullName": "pbakaus/impeccable",
           "description": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
-          "stars": 116493,
+          "stars": 117129,
           "archived": false,
           "defaultBranch": "main",
           "url": "https://github.com/pbakaus/impeccable",
-          "pushedAt": "2026-11-25T07:50:46Z"
+          "pushedAt": "2026-11-26T08:28:41Z"
         },
         "status": "ok",
-        "attemptedAt": "2026-11-25T08:44:16.332Z",
-        "succeededAt": "2026-11-25T08:44:16.332Z",
+        "attemptedAt": "2026-11-26T08:29:20.992Z",
+        "succeededAt": "2026-11-26T08:29:20.992Z",
         "errorCode": null
       },
       "release": {
         "value": {
-          "id": 457216829,
-          "tag": "skill-v4.11.0",
-          "publishedAt": "2026-11-24T19:11:40Z",
-          "url": "https://github.com/pbakaus/impeccable/releases/tag/skill-v4.11.0",
+          "id": 458855525,
+          "tag": "skill-v4.11.1",
+          "publishedAt": "2026-11-26T01:59:33Z",
+          "url": "https://github.com/pbakaus/impeccable/releases/tag/skill-v4.11.1",
           "scope": "repository"
         },
         "status": "ok",
-        "attemptedAt": "2026-11-25T08:44:16.332Z",
-        "succeededAt": "2026-11-25T08:44:16.332Z",
+        "attemptedAt": "2026-11-26T08:29:20.992Z",
+        "succeededAt": "2026-11-26T08:29:20.992Z",
         "errorCode": null
       },
       "activity": {
         "value": {
           "scopeType": "repository",
           "scopePath": "",
-          "lastCommitSha": "9e460a87ef338ee9d12c7beed8fedc597a5af5f7",
-          "lastCommitDate": "2026-11-24T19:09:18Z",
-          "lastCommitUrl": "https://github.com/pbakaus/impeccable/commit/9e460a87ef338ee9d12c7beed8fedc597a5af5f7",
+          "lastCommitSha": "2fc5e1459efbbf06d92c7306517c286bf12490cf",
+          "lastCommitDate": "2026-11-26T01:23:55Z",
+          "lastCommitUrl": "https://github.com/pbakaus/impeccable/commit/2fc5e1459efbbf06d92c7306517c286bf12490cf",
           "pathExists": true,
           "bins": [
             {
-              "start": "2026-09-02T08:44:16.332Z",
+              "start": "2026-09-03T08:29:20.992Z",
               "count": null
             },
             {
-              "start": "2026-09-09T08:44:16.332Z",
+              "start": "2026-09-10T08:29:20.992Z",
               "count": null
             },
             {
-              "start": "2026-09-16T08:44:16.332Z",
+              "start": "2026-09-17T08:29:20.992Z",
               "count": null
             },
             {
-              "start": "2026-09-23T08:44:16.332Z",
+              "start": "2026-09-24T08:29:20.992Z",
               "count": null
             },
             {
-              "start": "2026-09-30T08:44:16.332Z",
+              "start": "2026-10-01T08:29:20.992Z",
               "count": null
             },
             {
-              "start": "2026-10-07T08:44:16.332Z",
+              "start": "2026-10-08T08:29:20.992Z",
               "count": null
             },
             {
-              "start": "2026-10-14T08:44:16.332Z",
+              "start": "2026-10-15T08:29:20.992Z",
               "count": null
             },
             {
-              "start": "2026-10-21T08:44:16.332Z",
+              "start": "2026-10-22T08:29:20.992Z",
               "count": null
             },
             {
-              "start": "2026-10-28T08:44:16.332Z",
+              "start": "2026-10-29T08:29:20.992Z",
               "count": null
             },
             {
-              "start": "2026-11-04T08:44:16.332Z",
+              "start": "2026-11-05T08:29:20.992Z",
               "count": null
             },
             {
-              "start": "2026-11-11T08:44:16.332Z",
+              "start": "2026-11-12T08:29:20.992Z",
               "count": null
             },
             {
-              "start": "2026-11-18T08:44:16.332Z",
-              "count": 142
+              "start": "2026-11-19T08:29:20.992Z",
+              "count": 130
             }
           ],
           "complete": false
         },
         "status": "partial",
-        "attemptedAt": "2026-11-25T08:44:16.332Z",
-        "succeededAt": "2026-11-25T08:44:16.332Z",
+        "attemptedAt": "2026-11-26T08:29:20.992Z",
+        "succeededAt": "2026-11-26T08:29:20.992Z",
         "errorCode": null
       },
       "changes": {
@@ -739,22 +739,22 @@
           "repositoryId": 1195360525,
           "fullName": "OpenMontageInc/OpenMontage",
           "description": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio.",
-          "stars": 83170,
+          "stars": 83455,
           "archived": false,
           "defaultBranch": "main",
           "url": "https://github.com/OpenMontageInc/OpenMontage",
           "pushedAt": "2026-11-16T06:55:27Z"
         },
         "status": "ok",
-        "attemptedAt": "2026-11-25T08:44:16.332Z",
-        "succeededAt": "2026-11-25T08:44:16.332Z",
+        "attemptedAt": "2026-11-26T08:29:20.992Z",
+        "succeededAt": "2026-11-26T08:29:20.992Z",
         "errorCode": null
       },
       "release": {
         "value": null,
         "status": "missing",
-        "attemptedAt": "2026-11-25T08:44:16.332Z",
-        "succeededAt": "2026-11-25T08:44:16.332Z",
+        "attemptedAt": "2026-11-26T08:29:20.992Z",
+        "succeededAt": "2026-11-26T08:29:20.992Z",
         "errorCode": null
       },
       "activity": {
@@ -767,59 +767,59 @@
           "pathExists": true,
           "bins": [
             {
-              "start": "2026-09-02T08:44:16.332Z",
-              "count": 8
+              "start": "2026-09-03T08:29:20.992Z",
+              "count": 6
             },
             {
-              "start": "2026-09-09T08:44:16.332Z",
-              "count": 5
+              "start": "2026-09-10T08:29:20.992Z",
+              "count": 6
             },
             {
-              "start": "2026-09-16T08:44:16.332Z",
-              "count": 3
+              "start": "2026-09-17T08:29:20.992Z",
+              "count": 2
             },
             {
-              "start": "2026-09-23T08:44:16.332Z",
-              "count": 0
+              "start": "2026-09-24T08:29:20.992Z",
+              "count": 2
             },
             {
-              "start": "2026-09-30T08:44:16.332Z",
-              "count": 10
+              "start": "2026-10-01T08:29:20.992Z",
+              "count": 14
             },
             {
-              "start": "2026-10-07T08:44:16.332Z",
-              "count": 42
+              "start": "2026-10-08T08:29:20.992Z",
+              "count": 38
             },
             {
-              "start": "2026-10-14T08:44:16.332Z",
+              "start": "2026-10-15T08:29:20.992Z",
+              "count": 14
+            },
+            {
+              "start": "2026-10-22T08:29:20.992Z",
+              "count": 35
+            },
+            {
+              "start": "2026-10-29T08:29:20.992Z",
               "count": 13
             },
             {
-              "start": "2026-10-21T08:44:16.332Z",
-              "count": 34
+              "start": "2026-11-05T08:29:20.992Z",
+              "count": 129
             },
             {
-              "start": "2026-10-28T08:44:16.332Z",
-              "count": 16
-            },
-            {
-              "start": "2026-11-04T08:44:16.332Z",
-              "count": 130
-            },
-            {
-              "start": "2026-11-11T08:44:16.332Z",
+              "start": "2026-11-12T08:29:20.992Z",
               "count": 1
             },
             {
-              "start": "2026-11-18T08:44:16.332Z",
+              "start": "2026-11-19T08:29:20.992Z",
               "count": 0
             }
           ],
           "complete": true
         },
         "status": "ok",
-        "attemptedAt": "2026-11-25T08:44:16.332Z",
-        "succeededAt": "2026-11-25T08:44:16.332Z",
+        "attemptedAt": "2026-11-26T08:29:20.992Z",
+        "succeededAt": "2026-11-26T08:29:20.992Z",
         "errorCode": null
       },
       "changes": {
@@ -846,15 +846,15 @@
           "repositoryId": 1181567753,
           "fullName": "getopenscreen/openscreen",
           "description": "Record your screen, ship a demo. Free and open-source, GPU-accelerated, no watermarks, no subscriptions. Windows, macOS, Linux. Actively maintained.",
-          "stars": 8032,
+          "stars": 8118,
           "archived": false,
           "defaultBranch": "main",
           "url": "https://github.com/getopenscreen/openscreen",
-          "pushedAt": "2026-11-24T21:37:12Z"
+          "pushedAt": "2026-11-26T08:27:06Z"
         },
         "status": "ok",
-        "attemptedAt": "2026-11-25T08:44:16.332Z",
-        "succeededAt": "2026-11-25T08:44:16.332Z",
+        "attemptedAt": "2026-11-26T08:29:20.992Z",
+        "succeededAt": "2026-11-26T08:29:20.992Z",
         "errorCode": null
       },
       "release": {
@@ -866,73 +866,73 @@
           "scope": "repository"
         },
         "status": "ok",
-        "attemptedAt": "2026-11-25T08:44:16.332Z",
-        "succeededAt": "2026-11-25T08:44:16.332Z",
+        "attemptedAt": "2026-11-26T08:29:20.992Z",
+        "succeededAt": "2026-11-26T08:29:20.992Z",
         "errorCode": null
       },
       "activity": {
         "value": {
           "scopeType": "repository",
           "scopePath": "",
-          "lastCommitSha": "2b65ea937184de88b6c2a0ccf6e54400c950b10e",
-          "lastCommitDate": "2026-11-23T21:26:15Z",
-          "lastCommitUrl": "https://github.com/getopenscreen/openscreen/commit/2b65ea937184de88b6c2a0ccf6e54400c950b10e",
+          "lastCommitSha": "88cda67d886238cf31a19ade1521b964a224f841",
+          "lastCommitDate": "2026-11-26T08:26:22Z",
+          "lastCommitUrl": "https://github.com/getopenscreen/openscreen/commit/88cda67d886238cf31a19ade1521b964a224f841",
           "pathExists": true,
           "bins": [
             {
-              "start": "2026-09-02T08:44:16.332Z",
+              "start": "2026-09-03T08:29:20.992Z",
               "count": null
             },
             {
-              "start": "2026-09-09T08:44:16.332Z",
+              "start": "2026-09-10T08:29:20.992Z",
               "count": null
             },
             {
-              "start": "2026-09-16T08:44:16.332Z",
+              "start": "2026-09-17T08:29:20.992Z",
               "count": null
             },
             {
-              "start": "2026-09-23T08:44:16.332Z",
+              "start": "2026-09-24T08:29:20.992Z",
               "count": null
             },
             {
-              "start": "2026-09-30T08:44:16.332Z",
+              "start": "2026-10-01T08:29:20.992Z",
               "count": null
             },
             {
-              "start": "2026-10-07T08:44:16.332Z",
+              "start": "2026-10-08T08:29:20.992Z",
               "count": null
             },
             {
-              "start": "2026-10-14T08:44:16.332Z",
+              "start": "2026-10-15T08:29:20.992Z",
               "count": null
             },
             {
-              "start": "2026-10-21T08:44:16.332Z",
+              "start": "2026-10-22T08:29:20.992Z",
               "count": null
             },
             {
-              "start": "2026-10-28T08:44:16.332Z",
-              "count": 62
+              "start": "2026-10-29T08:29:20.992Z",
+              "count": 68
             },
             {
-              "start": "2026-11-04T08:44:16.332Z",
-              "count": 73
+              "start": "2026-11-05T08:29:20.992Z",
+              "count": 61
             },
             {
-              "start": "2026-11-11T08:44:16.332Z",
-              "count": 190
+              "start": "2026-11-12T08:29:20.992Z",
+              "count": 187
             },
             {
-              "start": "2026-11-18T08:44:16.332Z",
-              "count": 122
+              "start": "2026-11-19T08:29:20.992Z",
+              "count": 119
             }
           ],
           "complete": false
         },
         "status": "partial",
-        "attemptedAt": "2026-11-25T08:44:16.332Z",
-        "succeededAt": "2026-11-25T08:44:16.332Z",
+        "attemptedAt": "2026-11-26T08:29:20.992Z",
+        "succeededAt": "2026-11-26T08:29:20.992Z",
         "errorCode": null
       },
       "changes": {
@@ -940,7 +940,7 @@
         "releaseBaselineAvailable": true,
         "commitBaselineAvailable": true,
         "releaseChanged": false,
-        "commitChanged": false
+        "commitChanged": true
       }
     }
   ],
@@ -1120,11 +1120,11 @@
     }
   },
   "run": {
-    "lastAttemptAt": "2026-11-25T08:44:16.332Z",
-    "lastSuccessfulAt": "2026-11-25T08:44:16.332Z",
+    "lastAttemptAt": "2026-11-26T08:29:20.992Z",
+    "lastSuccessfulAt": "2026-11-26T08:29:20.992Z",
     "lastPublishedAt": "2026-11-25T08:45:28.926Z",
     "status": "partial",
-    "workflowUrl": "https://github.com/hyuuShin/plugin-inventory/actions/runs/45578864096",
+    "workflowUrl": "https://github.com/hyuuShin/plugin-inventory/actions/runs/45783522737",
     "errors": [
       "tool_3_activity_partial",
       "tool_6_activity_partial",
